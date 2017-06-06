@@ -3,6 +3,13 @@ import json, requests, sqlite3, sys
 from datetime import date, timedelta
 import pandas as pd
 
+# TODO validate basevolume
+# TODO fix get_cursor
+# TODO loop through resolults and ensure that we have all the tx for the day
+
+# UPDATE
+FILENAME = '/var/www/tempo/public/fx/exchange.json'
+
 def get_cursor(asset, asset_issuer):
     " get the cursor you want to start with"
     #c.execute('SELECT * FROM txs;')
@@ -10,7 +17,7 @@ def get_cursor(asset, asset_issuer):
     #conn = sqlite3.connect('trades.sqlite3')
     #c = conn.cursor()
     #conn.close()
-
+    # bad hack fix
     cursor ='44327219295686657-1'
     return cursor
 
@@ -20,13 +27,14 @@ def get_book(cursor, asset, asset_issuer):
     print q
     data = requests.get(q)
     sub_data = data.json()['_embedded']['records']
+    # TODO fix this as it may not be all records
     return sub_data
-    #print json.dumps(data.json(), indent=4, sort_keys=True)
 
 
 def get_volume(cursor, asset, asset_issuer):
     q = "https://horizon.stellar.org/order_book?selling_asset_type=credit_alphanum4&selling_asset_code=%s&selling_asset_issuer=%s&buying_asset_type=native" % (asset.upper(),asset_issuer)
     data = requests.get(q)
+    # TODO fix this as it may not be all records
     return data.json()
 
 
@@ -41,13 +49,6 @@ def get_quoteVolume(dfbids, dfasks):
     dfasks['lum'] = dfasks['amount'] * dfasks['price']
     askvol = dfasks['lum'].sum()
     return bidvol + askvol
-
-def get_baseVolume(dftrades):
-
-    #bidvol = dfbids['xlm_vol'].sum()
-    #dfasks['lum'] = dfasks['xlm_vol'] * dfasks['price']
-    #askvol = dfasks['lum'].sum()
-    return "100"
 
 
 def get_bids_asks(dfbook, asset):
@@ -98,6 +99,7 @@ def get_percentChange(dftr_today, dftr_yd):
     print change
     return '{:.2%}'.format(change)
 
+
 def write_asset(f, asset, asset_issuer):
     pd.options.display.float_format = '{:20,.8f}'.format
     cursor = get_cursor(asset, asset_issuer)
@@ -111,6 +113,7 @@ def write_asset(f, asset, asset_issuer):
     "lowestAsk": str('%.8f' % (1/dfbids.ix[0]['price'])),
     "highestBid": str("%.8f" %(1/dfasks.ix[0]['price'])),
     "percentChange":   str(get_percentChange(dftr_today, dftr_yd)),
+     # this is apparently wrong
     "baseVolume": dftr_today['bought_amount'].sum(),
     "quoteVolume": get_quoteVolume(dfbids, dfasks),
     "isFrozen":    "0",
@@ -119,20 +122,17 @@ def write_asset(f, asset, asset_issuer):
     return file_json
  
 
-
 if __name__ == "__main__":
 
     assets = [('EURT','GAP5LETOV6YIE62YAM56STDANPRDO7ZFDBGSNHJQIYGGKSMOZAHOOS2S'), \
             ('BTC','GATEMHCCKCY67ZUCKTROYN24ZYT5GK4EQZ65JJLDHKHRUZI3EUEKMTCH'), \
              ('CNY','GAREELUB43IRHWEASCFBLKHURCGMHE5IF6XSE7EXDLACYHGRHM43RFOX')]
-           #, 'BTC'] #,'CNY','BTC']
-    filename = '/var/www/tempo/public/fx/exchange.json'
+    
     assets_json = []
-    f = open(filename,'w')
+    f = open(FILENAME,'w')
     for asset in assets:
         asset_json = write_asset(f, asset[0], asset[1])
         assets_json.append(asset_json)
-    #ASSETS = ['EURT', 'USD']
     print json.dumps(assets_json)
     f.write(json.dumps(assets_json))
     f.close()
