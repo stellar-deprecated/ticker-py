@@ -1,0 +1,20 @@
+1:
+    base: BTC
+    base_issuer: GATEMHCCKCY67ZUCKTROYN24ZYT5GK4EQZ65JJLDHKHRUZI3EUEKMTCH
+    counter: XLM
+    counter_issuer: 
+2:
+    base: CNY
+    base_issuer: GAREELUB43IRHWEASCFBLKHURCGMHE5IF6XSE7EXDLACYHGRHM43RFOX
+    counter: XLM
+    counter_issuer: 
+3:
+    base: EURT
+    base_issuer: GAP5LETOV6YIE62YAM56STDANPRDO7ZFDBGSNHJQIYGGKSMOZAHOOS2S
+    counter: XLM
+    counter_issuer: 
+4:
+    base: XLM
+    base_issuer: 
+    counter: BTC
+    counter_issuer: GATEMHCCKCY67ZUCKTROYN24ZYT5GK4EQZ65JJLDHKHRUZI3EUEKMTCH
