@@ -1,13 +1,19 @@
-# stellar_volume
+# stellar_volume #
+
 A script to generate a json file for stellar stats
 
-To run:
-Requires pandas, yaml
-    sudo pip install pandas
-    sudo pip install yaml
+## Input ##
 
-config.yml - input pairs of currency to calculate stats on.
+config.yml - stellar_volume.py pulls currency pairs from here and performs calculations
+
+## To run: ##
+
+Requires pandas, yaml
+* sudo pip install pandas
+* sudo pip install yaml
 
 python3 stellar_volume.py
 
-output - exchange.json
+## output ## 
+
+exchange.json
