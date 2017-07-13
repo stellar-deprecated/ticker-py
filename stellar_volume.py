@@ -23,16 +23,11 @@ def this_page(yesterday, sub_data, up):
                 return 0
         return lower
             
-def native_get_book(assets):
+def get_book(assets):
     print("-------------------------------------------------------------- {} / {} ---------------------------------------------------------------".format(assets['base'], assets['counter']))
     data = {}
     entries = 0
-    if assets['counter'] == 'XLM':
-        link = "https://horizon.stellar.org/order_book/trades?selling_asset_type=credit_alphanum4&selling_asset_code={}&selling_asset_issuer={}&buying_asset_type=native&limit=200&order=desc".format(assets['base'], assets['base_issuer']) 
-    elif assets['base'] == 'XLM':
-        link = "https://horizon.stellar.org/order_book/trades?selling_asset_type=native&buying_asset_type=credit_alphanum4&buying_asset_code={}&buying_asset_issuer={}&limit=200&order=desc".format(assets['counter'], assets['counter_issuer'])
-    else:
-        link = "https://horizon.stellar.org/order_book/trades?selling_asset_type=credit_alphanum4&selling_asset_code={}&selling_asset_issuer={}&buying_asset_type=credit_alphanum4&buying_asset_code={}&buying_asset_issuer={}&limit=200&order=desc".format(assets['base'], assets['base_issuer'], assets['counter'], assets['counter_issuer'])
+    link = get_link(assets)
     print(link)
     yesterday = dt.now() - timedelta(hours=17)
     while True:
@@ -59,17 +54,29 @@ def native_get_book(assets):
         link = json.json()['_links']['next']['href']
         link.replace("\u0026", "&")   #TODO Needs to be removed when horizon bug is fixed
 
+def get_link(assets):
+    if assets['counter'] == 'XLM':
+        link = "https://horizon.stellar.org/order_book/trades?selling_asset_type=credit_alphanum4&selling_asset_code={}&selling_asset_issuer={}&buying_asset_type=native&limit=200&order=desc".format(assets['base'], assets['base_issuer'])
+    elif assets['base'] == 'XLM':
+        link = "https://horizon.stellar.org/order_book/trades?selling_asset_type=native&buying_asset_type=credit_alphanum4&buying_asset_code={}&buying_asset_issuer={}&limit=200&order=desc".format(assets['counter'], assets['counter_issuer'])
+    else:
+        link = "https://horizon.stellar.org/order_book/trades?selling_asset_type=credit_alphanum4&selling_asset_code={}&selling_asset_issuer={}&buying_asset_type=credit_alphanum4&buying_asset_code={}&buying_asset_issuer={}&limit=200&order=desc".format(assets['base'], assets['base_issuer'], assets['counter'], assets['counter_issuer'])
+    return link
+
 def get_volume(sub_data):
     seller_volume = 0.0
     buyer_volume = 0.0
     index = 0
     for index, item in enumerate(sub_data):
-        seller_volume += float(sub_data[index]['sold_amount'])
-        buyer_volume += float(sub_data[index]['bought_amount'])
+        buyer_volume += float(sub_data[index]['sold_amount'])
+        seller_volume += float(sub_data[index]['bought_amount'])
     print("base_volume = {}        counter_volume= {}".format(buyer_volume, seller_volume))
     return buyer_volume, seller_volume
 
-def get_price(sub_data):
+def get_price(assets):
+    link = get_link(assets)
+    json = requests.get(link)
+    sub_data = json.json()['_embedded']['records']
     if sub_data:
         sold = float(sub_data[0]['sold_amount'])
         bought = float(sub_data[0]['bought_amount'])
@@ -79,9 +86,9 @@ def get_price(sub_data):
     
 def write_asset(assets):
     pd.options.display.float_format = '{:20,.8f}'.format
-    subdata = native_get_book(assets)
+    subdata = get_book(assets)
     buyer_volume, seller_volume = get_volume(subdata)
-    price = get_price(subdata)
+    price = get_price(assets)
     file_json = {}
     file_json[assets['base'] + '_' + assets['counter']] = {
         "base_volume": format(buyer_volume, '.8f'),
