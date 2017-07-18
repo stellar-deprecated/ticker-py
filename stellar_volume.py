@@ -29,7 +29,7 @@ def get_book(assets):
     entries = 0
     link = get_link(assets)
     print(link)
-    yesterday = dt.now() - timedelta(hours=17)
+    yesterday = dt.utcnow() - timedelta(hours=24)
     while True:
         json = requests.get(link)
         sub_data = json.json()['_embedded']['records']
