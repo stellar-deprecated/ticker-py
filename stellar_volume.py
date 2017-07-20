@@ -9,18 +9,22 @@ def this_page(yesterday, sub_data, up):
     lower = 0
     upper = int(up)
     if yesterday < pd.to_datetime(sub_data[upper]['created_at']): #go to next page
-        return 0
+        return -2
     elif yesterday > pd.to_datetime(sub_data[lower]['created_at']): #none on this page
         return -1
     else: #returns number of relevant entries on this page
         while upper-lower > 0:
             index = (upper + lower + 1)//2
-            if yesterday > pd.to_datetime(sub_data[upper]['created_at']):
+            if yesterday > pd.to_datetime(sub_data[index]['created_at']):
+                if upper-lower == 1:
+                    return lower
                 upper = index
-            elif yesterday < pd.to_datetime(sub_data[lower]['created_at']):
+            elif yesterday < pd.to_datetime(sub_data[index]['created_at']):
+                if upper-lower == 1:
+                    return upper
                 lower = index
             else:
-                return 0
+                return -2
         return lower
             
 def get_book(assets):
@@ -29,7 +33,7 @@ def get_book(assets):
     entries = 0
     link = get_link(assets)
     print(link)
-    yesterday = dt.utcnow() - timedelta(hours=24)
+    yesterday = dt.utcnow() - timedelta(1)
     while True:
         json = requests.get(link)
         sub_data = json.json()['_embedded']['records']
@@ -38,7 +42,7 @@ def get_book(assets):
             return data
         index = 0
         result = this_page(yesterday, sub_data, upper)
-        if result == 0: #next page
+        if result == -2: #next page
             while index<upper+1: #load entire page as data
                 data[entries] = sub_data[index]
                 entries += 1
@@ -46,7 +50,7 @@ def get_book(assets):
         elif result == -1: #done
             return data #return data
         else: #this page
-            while index<result: #load relevant info from this page
+            while index<=result: #load relevant info from this page
                 data[entries] = sub_data[index]
                 entries += 1
                 index += 1
@@ -70,7 +74,6 @@ def get_volume(sub_data):
     for index, item in enumerate(sub_data):
         buyer_volume += float(sub_data[index]['sold_amount'])
         seller_volume += float(sub_data[index]['bought_amount'])
-    print("base_volume = {}        counter_volume= {}".format(buyer_volume, seller_volume))
     return buyer_volume, seller_volume
 
 def get_price(assets):
@@ -89,6 +92,7 @@ def write_asset(assets):
     subdata = get_book(assets)
     buyer_volume, seller_volume = get_volume(subdata)
     price = get_price(assets)
+    print("base_volume = {}        counter_volume= {}        price= {}".format(buyer_volume, seller_volume, price))
     file_json = {}
     file_json[assets['base'] + '_' + assets['counter']] = {
         "base_volume": format(buyer_volume, '.8f'),
