@@ -23,3 +23,8 @@
     base_issuer: 
     counter: JPY
     counter_issuer: GBVAOIACNSB7OVUXJYC5UE2D4YK2F7A24T7EE5YOMN4CE6GCHUTOUQXM
+6: 
+    base: XLM
+    base_issuer:
+    counter: XRP
+    counter_issuer: GA7FCCMTTSUIC37PODEL6EOOSPDRILP6OQI5FWCWDDVDBLJV72W6RINZ
