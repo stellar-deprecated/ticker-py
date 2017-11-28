@@ -62,7 +62,7 @@ $ python ticker.py
 ```bash
 $ python ticker.py -h
 usage: ticker.py [-h] [-c PAIRS_TOML] [-u HORIZON_HOST] [-t TIME_DURATION]
-                 [-bt BUCKET_RESOLUTION] [-o OUTPUT_FILE]
+                 [-b BUCKET_RESOLUTION] [-o OUTPUT_FILE]
 
 optional arguments:
   -h, --help            show this help message and exit
@@ -76,7 +76,7 @@ optional arguments:
                         time duration in millis, defaults to 24 hours
                         (default: 86400000)
   -b BUCKET_RESOLUTION, --bucket_resolution BUCKET_RESOLUTION
-                        buc**ket resolution for aggregation in millis, default
+                        bucket resolution for aggregation in millis, defaults
                         to 5 minutes (default: 300000)
   -o OUTPUT_FILE, --output_file OUTPUT_FILE
                         output file path (default: ticker.json)
