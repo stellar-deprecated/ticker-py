@@ -128,7 +128,7 @@ def main():
                         help="horizon host, including scheme")
     parser.add_argument("-t", "--time_duration", type=int, default=86400000,
                         help="time duration in millis, defaults to 24 hours")
-    parser.add_argument("-bt", "--bucket_resolution", type=int, default=300000,
+    parser.add_argument("-b", "--bucket_resolution", type=int, default=300000,
                         help="bucket resolution for aggregation in millis, defaults to 5 minutes")
     parser.add_argument("-o", "--output_file", default="ticker.json", help="output file path")
     args = parser.parse_args()
