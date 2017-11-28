@@ -1,0 +1,63 @@
+[[pair]]
+name = "XLM_BTC"
+base_asset_code = "XLM"
+base_asset_issuer = "native"
+counter_asset_code = "BTC"
+counter_asset_issuer = "GATEMHCCKCY67ZUCKTROYN24ZYT5GK4EQZ65JJLDHKHRUZI3EUEKMTCH"
+
+[[pair]]
+name = "XLM_BTC"
+base_asset_code = "XLM"
+base_asset_issuer = "native"
+counter_asset_code = "BTC"
+counter_asset_issuer = "GDXTJEK4JZNSTNQAWA53RZNS2GIKTDRPEUWDXELFMKU52XNECNVDVXDI"
+
+[[pair]]
+name = "XLM_BTC"
+base_asset_code = "XLM"
+base_asset_issuer = "native"
+counter_asset_code = "BTC"
+counter_asset_issuer = "GAUTUYY2THLF7SGITDFMXJVYH3LHDSMGEAKSBU267M2K7A3W543CKUEF"
+
+[[pair]]
+name = "XLM_CNY"
+base_asset_code = "XLM"
+base_asset_issuer = "native"
+counter_asset_code = "CNY"
+counter_asset_issuer = "GAREELUB43IRHWEASCFBLKHURCGMHE5IF6XSE7EXDLACYHGRHM43RFOX"
+
+[[pair]]
+name = "XLM_EUR"
+base_asset_code = "XLM"
+base_asset_issuer = "native"
+counter_asset_code = "EURT"
+counter_asset_issuer = "GAP5LETOV6YIE62YAM56STDANPRDO7ZFDBGSNHJQIYGGKSMOZAHOOS2S"
+
+[[pair]]
+name = "XLM_JPY"
+base_asset_code = "XLM"
+base_asset_issuer = "native"
+counter_asset_code = "JPY"
+counter_asset_issuer = "GBVAOIACNSB7OVUXJYC5UE2D4YK2F7A24T7EE5YOMN4CE6GCHUTOUQXM"
+
+[[pair]]
+name = "XLM_PHP"
+base_asset_code = "XLM"
+base_asset_issuer = "native"
+counter_asset_code = "PHP"
+counter_asset_issuer = "GBUQWP3BOUZX34TOND2QV7QQ7K7VJTG6VSE7WMLBTMDJLLAW7YKGU6EP"
+
+[[pair]]
+name = "XLM_XRP"
+base_asset_code = "XLM"
+base_asset_issuer = "native"
+counter_asset_code = "XRP"
+counter_asset_issuer = "GA7FCCMTTSUIC37PODEL6EOOSPDRILP6OQI5FWCWDDVDBLJV72W6RINZ"
+
+
+[[pair]]
+name = "XLM_XEL"
+base_asset_code = "XLM"
+base_asset_issuer = "native"
+counter_asset_code = "XEL"
+counter_asset_issuer = "GAXELY4AOIRVONF7V25BUPDNKZYIVT6CWURG7R2I6NQU26IQSQODBVCS"
