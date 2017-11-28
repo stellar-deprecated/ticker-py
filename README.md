@@ -75,7 +75,7 @@ optional arguments:
   -t TIME_DURATION, --time_duration TIME_DURATION
                         time duration in millis, defaults to 24 hours
                         (default: 86400000)
-  -bt BUCKET_RESOLUTION, --bucket_resolution BUCKET_RESOLUTION
+  -b BUCKET_RESOLUTION, --bucket_resolution BUCKET_RESOLUTION
                         buc**ket resolution for aggregation in millis, default
                         to 5 minutes (default: 300000)
   -o OUTPUT_FILE, --output_file OUTPUT_FILE
