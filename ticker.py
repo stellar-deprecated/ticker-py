@@ -13,7 +13,7 @@ def millis():
     return int(round(time() * 1000))
 
 
-def get_asset_params(prefix, atype, code, issuer):
+def make_asset_params(prefix, atype, code, issuer):
     """get aggregation request parameters for single asset"""
     return {
         prefix + "_asset_type": atype,
@@ -22,16 +22,20 @@ def get_asset_params(prefix, atype, code, issuer):
     }
 
 
-def get_asset_param_from_pair(pair, prefix):
+def make_asset_param_from_pair(pair, prefix):
     """get aggregation parameters for asset pair"""
     if pair[prefix + "_asset_issuer"] == "native":
-        return get_asset_params(prefix, "native", "", "")
+        return make_asset_params(prefix, "native", "", "")
     else:
-        return get_asset_params(prefix, "credit_alphanum4", pair[prefix + "_asset_code"],
-                                pair[prefix + "_asset_issuer"])
+        asset_code = pair[prefix + "_asset_code"]
+        if len(asset_code) > 12:
+            raise ValueError("asset code longer than 12 characters")
+        asset_type = "credit_alphanum4" if len(asset_code) <= 4 else "credit_alphanum12"
+        asset_issuer = pair[prefix + "_asset_issuer"]
+        return make_asset_params(prefix, asset_type, asset_code, asset_issuer)
 
 
-def get_aggregation_params(pair, start, end, resolution):
+def make_aggregation_params(pair, start, end, resolution):
     """get aggregation request params"""
     params = {
         "order": "asc",
@@ -40,8 +44,8 @@ def get_aggregation_params(pair, start, end, resolution):
         "end_time": end,
         "resolution": resolution
     }
-    params.update(get_asset_param_from_pair(pair, "base"))
-    params.update(get_asset_param_from_pair(pair, "counter"))
+    params.update(make_asset_param_from_pair(pair, "base"))
+    params.update(make_asset_param_from_pair(pair, "counter"))
     return params
 
 
@@ -62,16 +66,18 @@ def aggregate_pair(horizon_host, pair, start, end, resolution):
     """
     print "aggregating pair:", pair["name"]
     values = (0, 0, 0)
-    params = get_aggregation_params(pair, start, end, resolution)
+    params = make_aggregation_params(pair, start, end, resolution)
     url = horizon_host + "/trade_aggregations?" + urlencode(params)
     consumed = False
     while not consumed:
-        json_result = requests.get(url).json()
+        print "fetching url:", url
+        response = requests.get(url)
+        response.raise_for_status()  # raise exception for any failure
+        json_result = response.json()
         records = json_result['_embedded']['records']
         for record in records:
             values = sum_tuples(values, record_to_tuple(record))
         consumed = len(records) < PAGE_LIMIT
-        print url
         url = json_result["_links"]["next"]["href"]
     return values
 
@@ -80,7 +86,7 @@ def aggregate_pairs(horizon_host, pairs, start, end, resolution):
     """
     perform aggregation on all given pairs and group by the pair name
     :return a dictionary where keys are a pair name and value is an
-    aggregatedtuple of (base_volume, counter_volume, trade_count)
+    aggregated tuple of (base_volume, counter_volume, trade_count)
     """
     retval = {}
     for pair in pairs:
@@ -102,33 +108,38 @@ def format_pair_result(pair_name, pair_tuple):
     }
 
 
+def dump_aggregated_pairs(aggregated_at, aggregated_pairs, output):
+    """format aggregated pairs and dump as json to file"""
+    formatted_pairs = [format_pair_result(pair_name, pair_tuple) for pair_name, pair_tuple in
+                       aggregated_pairs.iteritems()]
+    with open(output, 'w') as outfile:
+        json.dump({
+            "pairs": formatted_pairs,
+            "generated_at": aggregated_at
+        }, outfile, indent=4, sort_keys=True)
+    print "results written to", output
+
+
 def main():
-    """"""
+    """configure commandline arguments and initiate aggregation"""
     parser = argparse.ArgumentParser(formatter_class=argparse.ArgumentDefaultsHelpFormatter)
-    parser.add_argument("--pairs_toml", default="pairs.toml", help="path to toml file containing asset pairs")
-    parser.add_argument("--horizon_host", default="https://horizon.stellar.org/",
+    parser.add_argument("-c", "--pairs_toml", default="pairs.toml", help="path to toml file containing asset pairs")
+    parser.add_argument("-u", "--horizon_host", default="https://horizon.stellar.org/",
                         help="horizon host, including scheme")
-    parser.add_argument("--time_duration", type=int, default=86400000,
-                        help="time duration in millis")
-    parser.add_argument("--bucket_resolution", type=int, default=300000,
-                        help="bucket resolution for aggregation in millis")
-    parser.add_argument("--output_file", default="ticker.json", help="output file path")
+    parser.add_argument("-t", "--time_duration", type=int, default=86400000,
+                        help="time duration in millis, defaults to 24 hours")
+    parser.add_argument("-bt", "--bucket_resolution", type=int, default=300000,
+                        help="bucket resolution for aggregation in millis, defaults to 5 minutes")
+    parser.add_argument("-o", "--output_file", default="ticker.json", help="output file path")
     args = parser.parse_args()
 
     config = toml.load(args.pairs_toml)
     now = millis()
     end_time = now - (now % args.bucket_resolution)
-    state = aggregate_pairs(args.horizon_host, config["pair"], end_time - args.time_duration, end_time,
-                            args.bucket_resolution)
-    formatted_pairs = [format_pair_result(pair_name, pair_tuple) for pair_name, pair_tuple in state.iteritems()]
+    aggregated_pairs = aggregate_pairs(args.horizon_host, config["pair"], end_time - args.time_duration, end_time,
+                                       args.bucket_resolution)
 
-    # dump pretty json to file
-    with open(args.output_file, 'w') as outfile:
-        json.dump({
-            "pairs": formatted_pairs,
-            "generated_at": now
-        }, outfile, indent=4, sort_keys=True)
-    print "results written to", args.output_file
+    dump_aggregated_pairs(now, aggregated_pairs, args.output_file)
 
 
 if __name__ == "__main__":

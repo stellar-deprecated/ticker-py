@@ -38,8 +38,11 @@ Note:
 
 Note: 
 - `generated_at` is timestamp of generation, represented as millis since epoch.
-- `trade_count` is a total count of trades for the given time period.
-- `price` is an average calculated as `counter_volume/base_volume`
+- `base_volume` is total aggregated base asset volume traded. String representation of a float with 7 digits after the decimal point.
+- `counter_volume` is a total aggregated counter asset volume traded. String representation of a float with 7 digits after the decimal point.
+- `name` correlates to the input pair name.
+- `trade_count` is a total count of aggregated trades.
+- `price` is an average calculated as `counter_volume/base_volume`.
   
 ## Install ##
 Assuming python 2 and pip are installed 
@@ -57,27 +60,24 @@ $ python ticker.py
 
 ### Configuration
 ```bash
-$ python ticker.py --help
-usage: ticker.py [-h] [--pairs_toml PAIRS_TOML] [--horizon_host HORIZON_HOST]
-                 [--time_duration TIME_DURATION]
-                 [--bucket_resolution BUCKET_RESOLUTION]
-                 [--output_file OUTPUT_FILE]
+$ python ticker.py -h
+usage: ticker.py [-h] [-c PAIRS_TOML] [-u HORIZON_HOST] [-t TIME_DURATION]
+                 [-bt BUCKET_RESOLUTION] [-o OUTPUT_FILE]
 
 optional arguments:
   -h, --help            show this help message and exit
-  --pairs_toml PAIRS_TOML
+  -c PAIRS_TOML, --pairs_toml PAIRS_TOML
                         path to toml file containing asset pairs (default:
                         pairs.toml)
-  --horizon_host HORIZON_HOST
+  -u HORIZON_HOST, --horizon_host HORIZON_HOST
                         horizon host, including scheme (default:
                         https://horizon.stellar.org/)
-  --time_duration TIME_DURATION
-                        time duration in millis (default: 86400000)
-  --bucket_resolution BUCKET_RESOLUTION
-                        bucket resolution for aggregation in millis (default:
-                        300000)
-  --output_file OUTPUT_FILE
+  -t TIME_DURATION, --time_duration TIME_DURATION
+                        time duration in millis, defaults to 24 hours
+                        (default: 86400000)
+  -bt BUCKET_RESOLUTION, --bucket_resolution BUCKET_RESOLUTION
+                        buc**ket resolution for aggregation in millis, default
+                        to 5 minutes (default: 300000)
+  -o OUTPUT_FILE, --output_file OUTPUT_FILE
                         output file path (default: ticker.json)
-
-
 ```
