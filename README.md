@@ -71,7 +71,7 @@ optional arguments:
                         pairs.toml)
   -u HORIZON_HOST, --horizon_host HORIZON_HOST
                         horizon host, including scheme (default:
-                        https://horizon.stellar.org/)
+                        https://horizon.stellar.org)
   -t TIME_DURATION, --time_duration TIME_DURATION
                         time duration in millis, defaults to 24 hours
                         (default: 86400000)

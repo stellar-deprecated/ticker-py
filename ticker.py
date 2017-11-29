@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 from time import time
 import json
 import toml
@@ -124,7 +126,7 @@ def main():
     """configure commandline arguments and initiate aggregation"""
     parser = argparse.ArgumentParser(formatter_class=argparse.ArgumentDefaultsHelpFormatter)
     parser.add_argument("-c", "--pairs_toml", default="pairs.toml", help="path to toml file containing asset pairs")
-    parser.add_argument("-u", "--horizon_host", default="https://horizon.stellar.org/",
+    parser.add_argument("-u", "--horizon_host", default="https://horizon.stellar.org",
                         help="horizon host, including scheme")
     parser.add_argument("-t", "--time_duration", type=int, default=86400000,
                         help="time duration in millis, defaults to 24 hours")
