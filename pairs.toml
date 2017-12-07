@@ -73,15 +73,15 @@ counter_asset_issuer = "GAXELY4AOIRVONF7V25BUPDNKZYIVT6CWURG7R2I6NQU26IQSQODBVCS
 name = "BTC_XEL"
 base_asset_code = "BTC"
 base_asset_issuer = "GATEMHCCKCY67ZUCKTROYN24ZYT5GK4EQZ65JJLDHKHRUZI3EUEKMTCH"
-counter_asset_code = ["XEL"]
-counter_asset_issuer = ["GAXELY4AOIRVONF7V25BUPDNKZYIVT6CWURG7R2I6NQU26IQSQODBVCS"]
+counter_asset_code = "XEL"
+counter_asset_issuer = "GAXELY4AOIRVONF7V25BUPDNKZYIVT6CWURG7R2I6NQU26IQSQODBVCS"
 
 [[pair]]
 name = "XLM_ETH"
 base_asset_code = "XLM"
 base_asset_issuer = "native"
-counter_asset_code = ["ETH"]
-counter_asset_issuer = ["GBSTRH4QOTWNSVA6E4HFERETX4ZLSR3CIUBLK7AXYII277PFJC4BBYOG"] #stronghold
+counter_asset_code = "ETH"
+counter_asset_issuer = "GBSTRH4QOTWNSVA6E4HFERETX4ZLSR3CIUBLK7AXYII277PFJC4BBYOG" #stronghold
 
 ### Native Tokens
 
@@ -89,15 +89,15 @@ counter_asset_issuer = ["GBSTRH4QOTWNSVA6E4HFERETX4ZLSR3CIUBLK7AXYII277PFJC4BBYO
 name = "XLM_EQD"
 base_asset_code = "XLM"
 base_asset_issuer = "native"
-counter_asset_code = ["EQD"]
-counter_asset_issuer = ["GCGEQJR3E5BVMQYSNCHPO6NPP3KOT4VVZHIOLSRSNLE2GFY7EWVSLLTN"]
+counter_asset_code = "EQD"
+counter_asset_issuer = "GCGEQJR3E5BVMQYSNCHPO6NPP3KOT4VVZHIOLSRSNLE2GFY7EWVSLLTN"
 
 [[pair]]
 name = "XLM_SLT"
 base_asset_code = "XLM"
 base_asset_issuer = "native"
-counter_asset_code = ["SLT"]
-counter_asset_issuer = ["GCKA6K5PCQ6PNF5RQBF7PQDJWRHO6UOGFMRLK3DYHDOI244V47XKQ4GP"]
+counter_asset_code = "SLT"
+counter_asset_issuer = "GCKA6K5PCQ6PNF5RQBF7PQDJWRHO6UOGFMRLK3DYHDOI244V47XKQ4GP"
 
 
 ###  APAY
@@ -106,82 +106,82 @@ counter_asset_issuer = ["GCKA6K5PCQ6PNF5RQBF7PQDJWRHO6UOGFMRLK3DYHDOI244V47XKQ4G
 name = "XLM_ICN"
 base_asset_code = "XLM"
 base_asset_issuer = "native"
-counter_asset_code = ["ICN"]
-counter_asset_issuer = ["GBDEVU63Y6NTHJQQZIKVTC23NWLQVP3WJ2RI2OTSJTNYOIGICST6DUXR"] # apay.io
+counter_asset_code = "ICN"
+counter_asset_issuer = "GBDEVU63Y6NTHJQQZIKVTC23NWLQVP3WJ2RI2OTSJTNYOIGICST6DUXR" # apay.io
 
 [[pair]]
 name = "XLM_BCH"
 base_asset_code = "XLM"
 base_asset_issuer = "native"
-counter_asset_code = ["BCH"]
-counter_asset_issuer = ["GAEGOS7I6TYZSVHPSN76RSPIVL3SELATXZWLFO4DIAFYJF7MPAHFE7H4"] # apay.io
+counter_asset_code = "BCH"
+counter_asset_issuer = "GAEGOS7I6TYZSVHPSN76RSPIVL3SELATXZWLFO4DIAFYJF7MPAHFE7H4" # apay.io
 
 [[pair]]
 name = "XLM_LTC"
 base_asset_code = "XLM"
 base_asset_issuer = "native"
-counter_asset_code = ["LTC"]
-counter_asset_issuer = ["GC5LOR3BK6KIOK7GKAUD5EGHQCMFOGHJTC7I3ELB66PTDFXORC2VM5LP"] #apay.io
+counter_asset_code = "LTC"
+counter_asset_issuer = "GC5LOR3BK6KIOK7GKAUD5EGHQCMFOGHJTC7I3ELB66PTDFXORC2VM5LP" #apay.io
 
 [[pair]]
 name = "XLM_ETH"
 base_asset_code = "XLM"
 base_asset_issuer = "native"
-counter_asset_code = ["ETH"]
-counter_asset_issuer = ["GBDEVU63Y6NTHJQQZIKVTC23NWLQVP3WJ2RI2OTSJTNYOIGICST6DUXR"] #apay.io
+counter_asset_code = "ETH"
+counter_asset_issuer = "GBDEVU63Y6NTHJQQZIKVTC23NWLQVP3WJ2RI2OTSJTNYOIGICST6DUXR" #apay.io
 
 [[pair]]
 name = "XLM_BAT"
 base_asset_code = "XLM"
 base_asset_issuer = "native"
-counter_asset_code = ["BAT"]
-counter_asset_issuer = ["GBDEVU63Y6NTHJQQZIKVTC23NWLQVP3WJ2RI2OTSJTNYOIGICST6DUXR"] #apay.io
+counter_asset_code = "BAT"
+counter_asset_issuer = "GBDEVU63Y6NTHJQQZIKVTC23NWLQVP3WJ2RI2OTSJTNYOIGICST6DUXR" #apay.io
 
 [[pair]]
 name = "XLM_KIN"
 base_asset_code = "XLM"
 base_asset_issuer = "native"
-counter_asset_code = ["KIN"]
-counter_asset_issuer = ["GBDEVU63Y6NTHJQQZIKVTC23NWLQVP3WJ2RI2OTSJTNYOIGICST6DUXR"] #apay.io
+counter_asset_code = "KIN"
+counter_asset_issuer = "GBDEVU63Y6NTHJQQZIKVTC23NWLQVP3WJ2RI2OTSJTNYOIGICST6DUXR" #apay.io
 
 [[pair]]
 name = "XLM_LINK"
 base_asset_code = "XLM"
 base_asset_issuer = "native"
-counter_asset_code = ["LINK"]
-counter_asset_issuer = ["GBDEVU63Y6NTHJQQZIKVTC23NWLQVP3WJ2RI2OTSJTNYOIGICST6DUXR"] #apay.io
+counter_asset_code = "LINK"
+counter_asset_issuer = "GBDEVU63Y6NTHJQQZIKVTC23NWLQVP3WJ2RI2OTSJTNYOIGICST6DUXR" #apay.io
 
 [[pair]]
 name = "XLM_MTL"
 base_asset_code = "XLM"
 base_asset_issuer = "native"
-counter_asset_code = ["MTL"]
-counter_asset_issuer = ["GBDEVU63Y6NTHJQQZIKVTC23NWLQVP3WJ2RI2OTSJTNYOIGICST6DUXR"] #apay.io
+counter_asset_code = "MTL"
+counter_asset_issuer = "GBDEVU63Y6NTHJQQZIKVTC23NWLQVP3WJ2RI2OTSJTNYOIGICST6DUXR" #apay.io
 
 [[pair]]
 name = "XLM_OMG"
 base_asset_code = "XLM"
 base_asset_issuer = "native"
-counter_asset_code = ["OMG"]
-counter_asset_issuer = ["GBDEVU63Y6NTHJQQZIKVTC23NWLQVP3WJ2RI2OTSJTNYOIGICST6DUXR"] #apay.io
+counter_asset_code = "OMG"
+counter_asset_issuer = "GBDEVU63Y6NTHJQQZIKVTC23NWLQVP3WJ2RI2OTSJTNYOIGICST6DUXR" #apay.io
 
 [[pair]]
 name = "XLM_KIN"
 base_asset_code = "XLM"
 base_asset_issuer = "native"
-counter_asset_code = ["KIN"]
-counter_asset_issuer = ["GBDEVU63Y6NTHJQQZIKVTC23NWLQVP3WJ2RI2OTSJTNYOIGICST6DUXR"] #apay.io
+counter_asset_code = "KIN"
+counter_asset_issuer = "GBDEVU63Y6NTHJQQZIKVTC23NWLQVP3WJ2RI2OTSJTNYOIGICST6DUXR" #apay.io
 
 [[pair]]
 name = "XLM_SALT"
 base_asset_code = "XLM"
 base_asset_issuer = "native"
-counter_asset_code = ["SALT"]
-counter_asset_issuer = ["GBDEVU63Y6NTHJQQZIKVTC23NWLQVP3WJ2RI2OTSJTNYOIGICST6DUXR"] #apay.io
+counter_asset_code = "SALT"
+counter_asset_issuer = "GBDEVU63Y6NTHJQQZIKVTC23NWLQVP3WJ2RI2OTSJTNYOIGICST6DUXR" #apay.io
 
 [[pair]]
 name = "XLM_ZRX"
 base_asset_code = "XLM"
 base_asset_issuer = "native"
-counter_asset_code = ["ZRX"]
-counter_asset_issuer = ["GBDEVU63Y6NTHJQQZIKVTC23NWLQVP3WJ2RI2OTSJTNYOIGICST6DUXR"] #apay.io
+counter_asset_code = "ZRX"
+counter_asset_issuer = "GBDEVU63Y6NTHJQQZIKVTC23NWLQVP3WJ2RI2OTSJTNYOIGICST6DUXR" #apay.io
