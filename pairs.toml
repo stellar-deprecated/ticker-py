@@ -185,3 +185,11 @@ base_asset_code = "XLM"
 base_asset_issuer = "native"
 counter_asset_code = "ZRX"
 counter_asset_issuer = "GBDEVU63Y6NTHJQQZIKVTC23NWLQVP3WJ2RI2OTSJTNYOIGICST6DUXR" #apay.io
+
+[[pair]]
+name = "XLM_MOBI"
+base_asset_code = "XLM"
+base_asset_issuer = "native"
+counter_asset_code = "MOBI"
+counter_asset_issuer = "GA6HCMBLTZS5VYYBCATRBRZ3BZJMAFUDKYYF6AH6MVCMGWMRDNSWJPIH" #mobi
+
