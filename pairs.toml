@@ -55,6 +55,13 @@ counter_asset_code = "PHP"
 counter_asset_issuer = "GBUQWP3BOUZX34TOND2QV7QQ7K7VJTG6VSE7WMLBTMDJLLAW7YKGU6EP"
 
 [[pair]]
+name = "EUR_PHP"
+base_asset_code = "EURT"
+base_asset_issuer = "GAP5LETOV6YIE62YAM56STDANPRDO7ZFDBGSNHJQIYGGKSMOZAHOOS2S"
+counter_asset_code = "PHP"
+counter_asset_issuer = "GBUQWP3BOUZX34TOND2QV7QQ7K7VJTG6VSE7WMLBTMDJLLAW7YKGU6EP"
+
+[[pair]]
 name = "XLM_XRP"
 base_asset_code = "XLM"
 base_asset_issuer = "native"
@@ -163,13 +170,6 @@ name = "XLM_OMG"
 base_asset_code = "XLM"
 base_asset_issuer = "native"
 counter_asset_code = "OMG"
-counter_asset_issuer = "GBDEVU63Y6NTHJQQZIKVTC23NWLQVP3WJ2RI2OTSJTNYOIGICST6DUXR" #apay.io
-
-[[pair]]
-name = "XLM_KIN"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "KIN"
 counter_asset_issuer = "GBDEVU63Y6NTHJQQZIKVTC23NWLQVP3WJ2RI2OTSJTNYOIGICST6DUXR" #apay.io
 
 [[pair]]
