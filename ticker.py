@@ -6,6 +6,9 @@ import toml
 import requests
 import argparse
 from urllib import urlencode
+from collections import namedtuple
+from datetime import datetime
+from dateutil import parser
 
 PAGE_LIMIT = 200  # for aggregation endpoint
 
@@ -99,27 +102,72 @@ def aggregate_pairs(horizon_host, pairs, start, end, resolution):
     return retval
 
 
-def format_pair_result(pair_name, pair_tuple):
+def format_pair_result(pair_name, pair_tuple, price):
     """convert trade aggregation tuple to a readable dictionary"""
     return {
         "name": pair_name,
         "base_volume": "%.7f" % pair_tuple[0],
         "counter_volume": "%.7f" % pair_tuple[1],
         "trade_count": pair_tuple[2],
-        "price": "%.7f" % (float(pair_tuple[1]) / pair_tuple[0] if pair_tuple[0] != 0 else 0)
+        "price": "%.7f" % price
     }
 
 
-def dump_aggregated_pairs(aggregated_at, aggregated_pairs, output):
+def dump_aggregated_pairs(aggregated_at, aggregated_pairs, prices_dict, output):
     """format aggregated pairs and dump as json to file"""
-    formatted_pairs = [format_pair_result(pair_name, pair_tuple) for pair_name, pair_tuple in
-                       aggregated_pairs.iteritems()]
+    formatted_pairs = [format_pair_result(pair_name, pair_tuple, prices_dict[pair_name].price)
+                       for pair_name, pair_tuple in aggregated_pairs.iteritems()]
     with open(output, 'w') as outfile:
         json.dump({
             "pairs": formatted_pairs,
             "generated_at": aggregated_at
         }, outfile, indent=4, sort_keys=True)
     print "results written to", output
+
+
+def make_trade_params(pair):
+    """get aggregation request params"""
+    params = {
+        "order": "desc",
+        "limit": 1,
+    }
+    params.update(make_asset_param_from_pair(pair, "base"))
+    params.update(make_asset_param_from_pair(pair, "counter"))
+    return params
+
+
+DatedPrice = namedtuple('DatedPrice', ['date', 'price'])
+
+
+def get_price(horizon_host, pair):
+    """return last trade price as DatedPrice"""
+    print "fetching latest price for:" + pair["name"]
+    params = make_trade_params(pair)
+    res = requests.get(horizon_host + "/trades", params).json()
+    try:
+        trade_record = res["_embedded"]["records"][0]
+    except IndexError:
+        return DatedPrice(date=datetime.utcfromtimestamp(0), price=0)
+    price = float(trade_record["counter_amount"]) / float(trade_record["base_amount"])
+    timestamp = parser.parse(trade_record["ledger_close_time"])
+    return DatedPrice(date=timestamp, price=price)
+
+
+def latest_date_price(dated_price_a, dated_price_b):
+    """return latest of both DatedPrices"""
+    return dated_price_a if dated_price_a.date > dated_price_b.date else dated_price_b
+
+
+def get_prices(horizon_host, pairs):
+    """return a dict of pair name to latest DatedPrice"""
+    dated_prices = [(pair["name"], get_price(horizon_host, pair)) for pair in pairs]
+    price_dict = {}
+    for dated_price in dated_prices:
+        if dated_price[0] not in price_dict:
+            price_dict[dated_price[0]] = dated_price[1]
+        else:
+            price_dict[dated_price[0]] = latest_date_price(price_dict[dated_price[0]], dated_price[1])
+    return price_dict
 
 
 def main():
@@ -140,8 +188,8 @@ def main():
     end_time = now - (now % args.bucket_resolution)
     aggregated_pairs = aggregate_pairs(args.horizon_host, config["pair"], end_time - args.time_duration, end_time,
                                        args.bucket_resolution)
-
-    dump_aggregated_pairs(now, aggregated_pairs, args.output_file)
+    pair_prices_dict = get_prices(args.horizon_host, config["pair"])
+    dump_aggregated_pairs(now, aggregated_pairs, pair_prices_dict, args.output_file)
 
 
 if __name__ == "__main__":
