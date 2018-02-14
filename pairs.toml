@@ -193,3 +193,17 @@ base_asset_issuer = "native"
 counter_asset_code = "MOBI"
 counter_asset_issuer = "GA6HCMBLTZS5VYYBCATRBRZ3BZJMAFUDKYYF6AH6MVCMGWMRDNSWJPIH" #mobi
 
+[[pair]]
+name = "XLM_HKD"
+base_asset_code = "XLM"
+base_asset_issuer = "native"
+counter_asset_code = "HKDC"
+counter_asset_issuer = "GA4BYMUO5D7OLGVJWZ2D5FCWU7SB63FNZ4QUU574SMNA6ELK5TZD3SO3" #cryptomover
+
+[[pair]]
+name = "XLM_RMT"
+base_asset_code = "XLM"
+base_asset_issuer = "native"
+counter_asset_code = "RMT"
+counter_asset_issuer = "GCVWTTPADC5YB5AYDKJCTUYSCJ7RKPGE4HT75NIZOUM4L7VRTS5EKLFN" #https://sureremit.co/
+
