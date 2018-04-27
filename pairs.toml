@@ -197,8 +197,8 @@ counter_asset_issuer = "GA6HCMBLTZS5VYYBCATRBRZ3BZJMAFUDKYYF6AH6MVCMGWMRDNSWJPIH
 name = "XLM_HKD"
 base_asset_code = "XLM"
 base_asset_issuer = "native"
-counter_asset_code = "HKDC"
-counter_asset_issuer = "GA4BYMUO5D7OLGVJWZ2D5FCWU7SB63FNZ4QUU574SMNA6ELK5TZD3SO3" #cryptomover
+counter_asset_code = "HKDT"
+counter_asset_issuer = "GABSZVZBYEO5F4V5LZKV7GR4SAJ5IKJGGOF43BIN42FNDUG7QPH6IMRQ" #cryptomover
 
 [[pair]]
 name = "XLM_RMT"
@@ -206,4 +206,13 @@ base_asset_code = "XLM"
 base_asset_issuer = "native"
 counter_asset_code = "RMT"
 counter_asset_issuer = "GCVWTTPADC5YB5AYDKJCTUYSCJ7RKPGE4HT75NIZOUM4L7VRTS5EKLFN" #https://sureremit.co/
+
+[[pair]]
+name = "XLM_ABDT"
+base_asset_code = "XLM"
+base_asset_issuer = "native"
+counter_asset_code = "ABDT"
+counter_asset_issuer = "GDZURZR6RZKIQVOWZFWPVAUBMLLBQGXP2K5E5G7PEOV75IYPDFA36WK4" 
+
+
 
