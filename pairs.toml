@@ -205,7 +205,7 @@ name = "XLM_RMT"
 base_asset_code = "XLM"
 base_asset_issuer = "native"
 counter_asset_code = "RMT"
-counter_asset_issuer = "GCVWTTPADC5YB5AYDKJCTUYSCJ7RKPGE4HT75NIZOUM4L7VRTS5EKLFN" #https://sureremit.co/
+counter_asset_issuer = "GDEGOXPCHXWFYY234D2YZSPEJ24BX42ESJNVHY5H7TWWQSYRN5ZKZE3N" #https://sureremit.co/
 
 [[pair]]
 name = "XLM_ABDT"
