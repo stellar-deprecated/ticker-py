@@ -191,6 +191,14 @@ counter_asset_code = "BTC"
 counter_asset_issuer = "GDGQDVO6XPFSY4NMX75A7AOVYCF5JYGW2SHCJJNWCQWIDGOZB53DGP6C"
 
 [[pair]]
+name = "XLM_BTC"
+base_asset_code = "XLM"
+base_asset_issuer = "native"
+counter_asset_code = "BTC"
+# toml = https://vcbear.net/.well-known/stellar.toml
+counter_asset_issuer = "GDXTJEK4JZNSTNQAWA53RZNS2GIKTDRPEUWDXELFMKU52XNECNVDVXDI"
+
+[[pair]]
 name = "XLM_CAD"
 base_asset_code = "XLM"
 base_asset_issuer = "native"
@@ -784,7 +792,7 @@ counter_asset_code = "NGN"
 counter_asset_issuer = "GCLRUZDCWBHS7VIFCT43BARPP63BHR32HMEVKXYQODA5BU6SIGFK4HL2"
 
 [[pair]]
-name = "XLM_NGNT"
+name = "XLM_NGN"
 base_asset_code = "XLM"
 base_asset_issuer = "native"
 counter_asset_code = "NGNT"
@@ -1137,7 +1145,7 @@ counter_asset_code = "USD"
 counter_asset_issuer = "GDG3DFFU5X6HG4ABXTI52565UTANQSLIARCJ73IISGKYRMGKZOTMTT2I"
 
 [[pair]]
-name = "XLM_USDT"
+name = "XLM_USD"
 base_asset_code = "XLM"
 base_asset_issuer = "native"
 counter_asset_code = "USDT"
@@ -1470,7 +1478,7 @@ counter_asset_code = "WOOLF"
 counter_asset_issuer = "GBRH4SJER4R7MXH5GYSE3WXKPMS53CQ22TVA7X64SDDWKABOPRN6JMP4"
 
 [[pair]]
-name = "XLM_WSD"
+name = "XLM_USD"
 base_asset_code = "XLM"
 base_asset_issuer = "native"
 counter_asset_code = "WSD"
