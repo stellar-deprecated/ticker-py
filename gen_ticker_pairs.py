@@ -4,6 +4,8 @@
 
 import requests
 
+# minimum number of account holders to be added to the list
+min_account_holders = 5
 blacklist_code = ['REMOVE']
 # transform name for asset based on code:issuer whitelist
 name_transforms = {
@@ -36,6 +38,9 @@ while True:
 
     for r in records:
         if r['asset_code'] in blacklist_code:
+            continue
+
+        if r['num_accounts'] < min_account_holders:
             continue
 
         print('[[pair]]')
