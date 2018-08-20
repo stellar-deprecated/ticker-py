@@ -4,9 +4,14 @@
 
 import requests
 
-# minimum number of account holders to be added to the list
-min_account_holders = 5
-blacklist_code = ['REMOVE']
+# minimum number of account holders to be added to the list if auth_required is true
+min_account_holders_auth_required = 1
+# minimum number of account holders to be added to the list if auth_required is false
+min_account_holders = 50
+# minimum number of issued assets to be added to the list
+min_issued_assets = 10
+
+blacklist_code = ['REMOVE', 'XLM']
 # transform name for asset based on code:issuer whitelist
 name_transforms = {
     'XCN:GCNY5OXYSY4FKHOPT2SPOQZAOEIGXB5LBYW3HVU3OWSTQITS65M5RCNY': 'CNY',
@@ -40,7 +45,14 @@ while True:
         if r['asset_code'] in blacklist_code:
             continue
 
-        if r['num_accounts'] < min_account_holders:
+        if r['flags']['auth_required']:
+            account_limit = min_account_holders_auth_required
+        else:
+            account_limit = min_account_holders
+        if r['num_accounts'] < account_limit:
+            continue
+
+        if float(r['amount']) < min_issued_assets:
             continue
 
         print('[[pair]]')

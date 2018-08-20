@@ -13,26 +13,11 @@ counter_asset_code = "XEL"
 counter_asset_issuer = "GAXELY4AOIRVONF7V25BUPDNKZYIVT6CWURG7R2I6NQU26IQSQODBVCS"
 
 [[pair]]
-name = "XLM_ABDT"
+name = "XLM_AAA"
 base_asset_code = "XLM"
 base_asset_issuer = "native"
-counter_asset_code = "ABDT"
-counter_asset_issuer = "GADHTKZQWLMBV2HAHEHVMQQCN32SBIOA3DA4CWKMXY4OSLV6BMWGBI4X"
-
-[[pair]]
-name = "XLM_ABDT"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "ABDT"
-counter_asset_issuer = "GAEQ2LCULSJJOWWZRHFKQUZM4CPWZ55C6N7AZVJEMEU2DFL4VS43ZHSB"
-
-[[pair]]
-name = "XLM_abdt"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "abdt"
-# toml = https://atlantisblue.org/.well-known/stellar.toml
-counter_asset_issuer = "GDZURZR6RZKIQVOWZFWPVAUBMLLBQGXP2K5E5G7PEOV75IYPDFA36WK4"
+counter_asset_code = "AAA"
+counter_asset_issuer = "GBQHKKCNHKVG5FAILC22GYK2EL5JRHHNCF3NO3OUOTFBSLQ762DDIN2P"
 
 [[pair]]
 name = "XLM_ABDT"
@@ -41,22 +26,6 @@ base_asset_issuer = "native"
 counter_asset_code = "ABDT"
 # toml = https://atlantisblue.org/.well-known/stellar.toml
 counter_asset_issuer = "GDZURZR6RZKIQVOWZFWPVAUBMLLBQGXP2K5E5G7PEOV75IYPDFA36WK4"
-
-[[pair]]
-name = "XLM_ABTD"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "ABTD"
-# toml = https://atlantisblue.org/.well-known/stellar.toml
-counter_asset_issuer = "GDZURZR6RZKIQVOWZFWPVAUBMLLBQGXP2K5E5G7PEOV75IYPDFA36WK4"
-
-[[pair]]
-name = "XLM_acu"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "acu"
-# toml = https://acudeen.io/.well-known/stellar.toml
-counter_asset_issuer = "GCXEGWRBTNC7ZVMM7SHQDBA75XPLBU4WPN6PGTD3YTUQHU7RU4W4MYBC"
 
 [[pair]]
 name = "XLM_ACU"
@@ -67,52 +36,6 @@ counter_asset_code = "ACU"
 counter_asset_issuer = "GCXEGWRBTNC7ZVMM7SHQDBA75XPLBU4WPN6PGTD3YTUQHU7RU4W4MYBC"
 
 [[pair]]
-name = "XLM_ADA"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "ADA"
-# toml = https://galtbank.com/.well-known/stellar.toml
-counter_asset_issuer = "GBANK7OKSC2AVD6HQM65XRBHBH3F76PYDHJCWLVUDR5JBVWFGLVQMPZA"
-
-[[pair]]
-name = "XLM_ADBT"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "ADBT"
-# toml = https://atlantisblue.org/.well-known/stellar.toml
-counter_asset_issuer = "GDZURZR6RZKIQVOWZFWPVAUBMLLBQGXP2K5E5G7PEOV75IYPDFA36WK4"
-
-[[pair]]
-name = "XLM_AEDT"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "AEDT"
-counter_asset_issuer = "GCTGGQIRX6JQI2I3ALL6OFGH6EMALDSL52RLRV7E2Y5OAZQJNI5IKBYA"
-
-[[pair]]
-name = "XLM_AFCC"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "AFCC"
-counter_asset_issuer = "GB6L64GAVGZ6ZXB55TF7MWJHXSKGX7PCVIAMNUK4YSXVVHSR6MXBE4VX"
-
-[[pair]]
-name = "XLM_Akoin"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "Akoin"
-# toml = https://atmant.net/.well-known/stellar.toml
-counter_asset_issuer = "GCE4NTGN35PGOWSWUTVOLE5ULEDBSEADBHCUBPA22TJOXZAZXNCHER3P"
-
-[[pair]]
-name = "XLM_ALEXA"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "ALEXA"
-# toml = https://alexacoin.id/.well-known/stellar.toml
-counter_asset_issuer = "GB5SDHWWW55EMY5IYREZ4XPSNDK3N6UTOYX2JQ7XEBHRZUTNK6OKVGGV"
-
-[[pair]]
 name = "XLM_AngelXYZ"
 base_asset_code = "XLM"
 base_asset_issuer = "native"
@@ -121,97 +44,40 @@ counter_asset_code = "AngelXYZ"
 counter_asset_issuer = "GANZBUS4726LBT2CBJ3BGF3TP4NJT5MHZMI423NHMXFRWGO2DCBQEXYZ"
 
 [[pair]]
-name = "XLM_anilorak"
+name = "XLM_ARG"
 base_asset_code = "XLM"
 base_asset_issuer = "native"
-counter_asset_code = "anilorak"
-# toml = https://pr.network/.well-known/stellar.toml
-counter_asset_issuer = "GAZPKDTEZ5UM3BF4E7FL7EMXRMLH76F2TNVXRLOF6SCVXOFWSPCEWFI5"
+counter_asset_code = "ARG"
+counter_asset_issuer = "GAZPW42BXT47DH7EVLJQA3GXOMOFPCPUSOSUVVLCPCSQ5HU6FQRKGXKF"
 
 [[pair]]
-name = "XLM_ANT"
+name = "XLM_ARG"
 base_asset_code = "XLM"
 base_asset_issuer = "native"
-counter_asset_code = "ANT"
-# toml = https://adcorp.network/.well-known/stellar.toml
-counter_asset_issuer = "GDY543QMKNYG2IT52S2KXOJNDIPRKSTPXM5EFJSTHU7TL2ZOUJPRW62Z"
+counter_asset_code = "ARG"
+counter_asset_issuer = "GBE4VPQNGMM4BBFCQMREMMBC4WNDR7RT4NLKH6QIGOKQJZWRFA32SBRH"
 
 [[pair]]
-name = "XLM_APIS"
+name = "XLM_ARG"
 base_asset_code = "XLM"
 base_asset_issuer = "native"
-counter_asset_code = "APIS"
-# toml = https://apiscapitalfunds.com/.well-known/stellar.toml
-counter_asset_issuer = "GCYKQ2627BPKMSUZJK64GPYVKD4TRNACP45X6B754PR6TCYJXCHGUTWB"
+counter_asset_code = "ARG"
+counter_asset_issuer = "GBTLS4IJKSGJUZRKRLFIEBTI7MPSHTEEGVKC72YEGJFGODI4WGXKZ4W4"
 
 [[pair]]
-name = "XLM_ASK"
+name = "XLM_AVNG"
 base_asset_code = "XLM"
 base_asset_issuer = "native"
-counter_asset_code = "ASK"
-counter_asset_issuer = "GBFRYDA7C2CCQ3I7VML2VL4S3VBIP2G76FCBOZLHQRRHAK6PCGOCHHNM"
+counter_asset_code = "AVNG"
+# toml = https://bornideas.com/.well-known/stellar.toml
+counter_asset_issuer = "GCCMKFS56ZV7MBIK2B2FX6FJ6A43P3TXCSXHNHX7GTMT3BVGNLJNDPVC"
 
 [[pair]]
-name = "XLM_ATMANT"
+name = "XLM_AXF"
 base_asset_code = "XLM"
 base_asset_issuer = "native"
-counter_asset_code = "ATMANT"
-# toml = https://atmant.net/.well-known/stellar.toml
-counter_asset_issuer = "GCE4NTGN35PGOWSWUTVOLE5ULEDBSEADBHCUBPA22TJOXZAZXNCHER3P"
-
-[[pair]]
-name = "XLM_ATOMBOMB"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "ATOMBOMB"
-# toml = https://atmant.net/.well-known/stellar.toml
-counter_asset_issuer = "GCE4NTGN35PGOWSWUTVOLE5ULEDBSEADBHCUBPA22TJOXZAZXNCHER3P"
-
-[[pair]]
-name = "XLM_audi"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "audi"
-# toml = https://pr.network/.well-known/stellar.toml
-counter_asset_issuer = "GAZPKDTEZ5UM3BF4E7FL7EMXRMLH76F2TNVXRLOF6SCVXOFWSPCEWFI5"
-
-[[pair]]
-name = "XLM_AUDT"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "AUDT"
-counter_asset_issuer = "GC4BOCOA27V6YKZOMNOPC5R2WNWTJ5GPBYFCUIXM5BSDRQM43IMU6J7L"
-
-[[pair]]
-name = "XLM_AUDX"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "AUDX"
-counter_asset_issuer = "GB7KMIAD467FUM3TIABQAFUNOXZXTFCH3KHLKXA27W7OHJ5I5DFLI746"
-
-[[pair]]
-name = "XLM_australia"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "australia"
-# toml = https://pr.network/.well-known/stellar.toml
-counter_asset_issuer = "GAZPKDTEZ5UM3BF4E7FL7EMXRMLH76F2TNVXRLOF6SCVXOFWSPCEWFI5"
-
-[[pair]]
-name = "XLM_AXU"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "AXU"
-# toml = https://argentas.io/.well-known/stellar.toml
-counter_asset_issuer = "GD2CLUZYNIGC4RG3ORRBXXMC4HH55U66PK6JNH2R54N52LO6ZUWBUQTO"
-
-[[pair]]
-name = "XLM_BANANA"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "BANANA"
-# toml = https://stellar.dance/.well-known/stellar.toml
-counter_asset_issuer = "GDEUPREO2CELHYJHS6R4PSA67OAN3KPLNZGXBNDAT5EFBCNV77UIB2CD"
+counter_asset_code = "AXF"
+counter_asset_issuer = "GBP5XA5YVPUHXRJPPUREO2PHLVYHESVFVNTP3T4CYIIFIOMTXWNKRVPJ"
 
 [[pair]]
 name = "XLM_BAT"
@@ -220,216 +86,6 @@ base_asset_issuer = "native"
 counter_asset_code = "BAT"
 # toml = https://apay.io/.well-known/stellar.toml
 counter_asset_issuer = "GBDEVU63Y6NTHJQQZIKVTC23NWLQVP3WJ2RI2OTSJTNYOIGICST6DUXR"
-
-[[pair]]
-name = "XLM_BBT"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "BBT"
-counter_asset_issuer = "GBBTVGCIXYTH4VOXIPJE454YRZIR5M56KXOZWWG3VM6ZCDETERIA7GO3"
-
-[[pair]]
-name = "XLM_BC70"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "BC70"
-counter_asset_issuer = "GAZASMHBZFU42UASLMYHBPJ46KV32TVZZOVTW4Q5BJGQN75GAK4JSXT3"
-
-[[pair]]
-name = "XLM_BC70"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "BC70"
-counter_asset_issuer = "GBBUC5YAOP5INGODW4SM7DJB26K4T2FV5RJCRDO5E773EHZVT74H67RF"
-
-[[pair]]
-name = "XLM_BC71"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "BC71"
-counter_asset_issuer = "GAZASMHBZFU42UASLMYHBPJ46KV32TVZZOVTW4Q5BJGQN75GAK4JSXT3"
-
-[[pair]]
-name = "XLM_BC72"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "BC72"
-counter_asset_issuer = "GAZASMHBZFU42UASLMYHBPJ46KV32TVZZOVTW4Q5BJGQN75GAK4JSXT3"
-
-[[pair]]
-name = "XLM_BC73"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "BC73"
-counter_asset_issuer = "GAZASMHBZFU42UASLMYHBPJ46KV32TVZZOVTW4Q5BJGQN75GAK4JSXT3"
-
-[[pair]]
-name = "XLM_BC74"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "BC74"
-counter_asset_issuer = "GAZASMHBZFU42UASLMYHBPJ46KV32TVZZOVTW4Q5BJGQN75GAK4JSXT3"
-
-[[pair]]
-name = "XLM_BC75"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "BC75"
-counter_asset_issuer = "GAZASMHBZFU42UASLMYHBPJ46KV32TVZZOVTW4Q5BJGQN75GAK4JSXT3"
-
-[[pair]]
-name = "XLM_BC76"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "BC76"
-counter_asset_issuer = "GAZASMHBZFU42UASLMYHBPJ46KV32TVZZOVTW4Q5BJGQN75GAK4JSXT3"
-
-[[pair]]
-name = "XLM_BC77"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "BC77"
-counter_asset_issuer = "GAZASMHBZFU42UASLMYHBPJ46KV32TVZZOVTW4Q5BJGQN75GAK4JSXT3"
-
-[[pair]]
-name = "XLM_BC78"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "BC78"
-counter_asset_issuer = "GAZASMHBZFU42UASLMYHBPJ46KV32TVZZOVTW4Q5BJGQN75GAK4JSXT3"
-
-[[pair]]
-name = "XLM_BC79"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "BC79"
-counter_asset_issuer = "GAZASMHBZFU42UASLMYHBPJ46KV32TVZZOVTW4Q5BJGQN75GAK4JSXT3"
-
-[[pair]]
-name = "XLM_BC80"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "BC80"
-counter_asset_issuer = "GAZASMHBZFU42UASLMYHBPJ46KV32TVZZOVTW4Q5BJGQN75GAK4JSXT3"
-
-[[pair]]
-name = "XLM_BC81"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "BC81"
-counter_asset_issuer = "GAZASMHBZFU42UASLMYHBPJ46KV32TVZZOVTW4Q5BJGQN75GAK4JSXT3"
-
-[[pair]]
-name = "XLM_BC81"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "BC81"
-counter_asset_issuer = "GBBUC5YAOP5INGODW4SM7DJB26K4T2FV5RJCRDO5E773EHZVT74H67RF"
-
-[[pair]]
-name = "XLM_BC82"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "BC82"
-counter_asset_issuer = "GAZASMHBZFU42UASLMYHBPJ46KV32TVZZOVTW4Q5BJGQN75GAK4JSXT3"
-
-[[pair]]
-name = "XLM_BC83"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "BC83"
-counter_asset_issuer = "GAZASMHBZFU42UASLMYHBPJ46KV32TVZZOVTW4Q5BJGQN75GAK4JSXT3"
-
-[[pair]]
-name = "XLM_BC84"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "BC84"
-counter_asset_issuer = "GAZASMHBZFU42UASLMYHBPJ46KV32TVZZOVTW4Q5BJGQN75GAK4JSXT3"
-
-[[pair]]
-name = "XLM_BC85"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "BC85"
-counter_asset_issuer = "GAZASMHBZFU42UASLMYHBPJ46KV32TVZZOVTW4Q5BJGQN75GAK4JSXT3"
-
-[[pair]]
-name = "XLM_BC85"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "BC85"
-counter_asset_issuer = "GBBUC5YAOP5INGODW4SM7DJB26K4T2FV5RJCRDO5E773EHZVT74H67RF"
-
-[[pair]]
-name = "XLM_BC86"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "BC86"
-counter_asset_issuer = "GAZASMHBZFU42UASLMYHBPJ46KV32TVZZOVTW4Q5BJGQN75GAK4JSXT3"
-
-[[pair]]
-name = "XLM_BC87"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "BC87"
-counter_asset_issuer = "GAZASMHBZFU42UASLMYHBPJ46KV32TVZZOVTW4Q5BJGQN75GAK4JSXT3"
-
-[[pair]]
-name = "XLM_BC88"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "BC88"
-counter_asset_issuer = "GAZASMHBZFU42UASLMYHBPJ46KV32TVZZOVTW4Q5BJGQN75GAK4JSXT3"
-
-[[pair]]
-name = "XLM_BC89"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "BC89"
-counter_asset_issuer = "GAZASMHBZFU42UASLMYHBPJ46KV32TVZZOVTW4Q5BJGQN75GAK4JSXT3"
-
-[[pair]]
-name = "XLM_BC90"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "BC90"
-counter_asset_issuer = "GAZASMHBZFU42UASLMYHBPJ46KV32TVZZOVTW4Q5BJGQN75GAK4JSXT3"
-
-[[pair]]
-name = "XLM_BC91"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "BC91"
-counter_asset_issuer = "GAZASMHBZFU42UASLMYHBPJ46KV32TVZZOVTW4Q5BJGQN75GAK4JSXT3"
-
-[[pair]]
-name = "XLM_BC92"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "BC92"
-counter_asset_issuer = "GAZASMHBZFU42UASLMYHBPJ46KV32TVZZOVTW4Q5BJGQN75GAK4JSXT3"
-
-[[pair]]
-name = "XLM_BC93"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "BC93"
-counter_asset_issuer = "GAZASMHBZFU42UASLMYHBPJ46KV32TVZZOVTW4Q5BJGQN75GAK4JSXT3"
-
-[[pair]]
-name = "XLM_BC94"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "BC94"
-counter_asset_issuer = "GAZASMHBZFU42UASLMYHBPJ46KV32TVZZOVTW4Q5BJGQN75GAK4JSXT3"
-
-[[pair]]
-name = "XLM_BC95"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "BC95"
-counter_asset_issuer = "GAZASMHBZFU42UASLMYHBPJ46KV32TVZZOVTW4Q5BJGQN75GAK4JSXT3"
 
 [[pair]]
 name = "XLM_BCH"
@@ -448,242 +104,6 @@ counter_asset_code = "BCH"
 counter_asset_issuer = "GBCHK4TINAK6KXTD4BBWWKR5BI2OKJ7C7HYX55BJ5I4KHNQMTL5UXBCH"
 
 [[pair]]
-name = "XLM_BCN"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "BCN"
-# toml = https://bitbox.one/.well-known/stellar.toml
-counter_asset_issuer = "GBCNYBHAAPDSU3UIHXXQTHYZVSBJBI4YUNWXMKJBCPDHTVYR75G6NFHD"
-
-[[pair]]
-name = "XLM_BCNY"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "BCNY"
-# toml = https://bitbox.one/.well-known/stellar.toml
-counter_asset_issuer = "GBCNYBHAAPDSU3UIHXXQTHYZVSBJBI4YUNWXMKJBCPDHTVYR75G6NFHD"
-
-[[pair]]
-name = "XLM_BCOF"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "BCOF"
-counter_asset_issuer = "GBBUC5YAOP5INGODW4SM7DJB26K4T2FV5RJCRDO5E773EHZVT74H67RF"
-
-[[pair]]
-name = "XLM_BEE"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "BEE"
-counter_asset_issuer = "GD7GWEDSDVWUT63JOUHLNHBE2E6T4H6RPYHJ7LP26XNO5TINSPNLKNBB"
-
-[[pair]]
-name = "XLM_BEER"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "BEER"
-# toml = https://funtracker.site/.well-known/stellar.toml
-counter_asset_issuer = "GDW3CNKSP5AOTDQ2YCKNGC6L65CE4JDX3JS5BV427OB54HCF2J4PUEVG"
-
-[[pair]]
-name = "XLM_beyonce"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "beyonce"
-# toml = https://pr.network/.well-known/stellar.toml
-counter_asset_issuer = "GAZPKDTEZ5UM3BF4E7FL7EMXRMLH76F2TNVXRLOF6SCVXOFWSPCEWFI5"
-
-[[pair]]
-name = "XLM_BG70"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "BG70"
-counter_asset_issuer = "GAZASMHBZFU42UASLMYHBPJ46KV32TVZZOVTW4Q5BJGQN75GAK4JSXT3"
-
-[[pair]]
-name = "XLM_BG71"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "BG71"
-counter_asset_issuer = "GAZASMHBZFU42UASLMYHBPJ46KV32TVZZOVTW4Q5BJGQN75GAK4JSXT3"
-
-[[pair]]
-name = "XLM_BG72"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "BG72"
-counter_asset_issuer = "GAZASMHBZFU42UASLMYHBPJ46KV32TVZZOVTW4Q5BJGQN75GAK4JSXT3"
-
-[[pair]]
-name = "XLM_BG73"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "BG73"
-counter_asset_issuer = "GAZASMHBZFU42UASLMYHBPJ46KV32TVZZOVTW4Q5BJGQN75GAK4JSXT3"
-
-[[pair]]
-name = "XLM_BG74"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "BG74"
-counter_asset_issuer = "GAZASMHBZFU42UASLMYHBPJ46KV32TVZZOVTW4Q5BJGQN75GAK4JSXT3"
-
-[[pair]]
-name = "XLM_BG75"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "BG75"
-counter_asset_issuer = "GAZASMHBZFU42UASLMYHBPJ46KV32TVZZOVTW4Q5BJGQN75GAK4JSXT3"
-
-[[pair]]
-name = "XLM_BG76"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "BG76"
-counter_asset_issuer = "GAZASMHBZFU42UASLMYHBPJ46KV32TVZZOVTW4Q5BJGQN75GAK4JSXT3"
-
-[[pair]]
-name = "XLM_BG77"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "BG77"
-counter_asset_issuer = "GAZASMHBZFU42UASLMYHBPJ46KV32TVZZOVTW4Q5BJGQN75GAK4JSXT3"
-
-[[pair]]
-name = "XLM_BG78"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "BG78"
-counter_asset_issuer = "GAZASMHBZFU42UASLMYHBPJ46KV32TVZZOVTW4Q5BJGQN75GAK4JSXT3"
-
-[[pair]]
-name = "XLM_BG79"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "BG79"
-counter_asset_issuer = "GAZASMHBZFU42UASLMYHBPJ46KV32TVZZOVTW4Q5BJGQN75GAK4JSXT3"
-
-[[pair]]
-name = "XLM_BG80"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "BG80"
-counter_asset_issuer = "GAZASMHBZFU42UASLMYHBPJ46KV32TVZZOVTW4Q5BJGQN75GAK4JSXT3"
-
-[[pair]]
-name = "XLM_BG81"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "BG81"
-counter_asset_issuer = "GAZASMHBZFU42UASLMYHBPJ46KV32TVZZOVTW4Q5BJGQN75GAK4JSXT3"
-
-[[pair]]
-name = "XLM_BG82"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "BG82"
-counter_asset_issuer = "GAZASMHBZFU42UASLMYHBPJ46KV32TVZZOVTW4Q5BJGQN75GAK4JSXT3"
-
-[[pair]]
-name = "XLM_BG83"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "BG83"
-counter_asset_issuer = "GAZASMHBZFU42UASLMYHBPJ46KV32TVZZOVTW4Q5BJGQN75GAK4JSXT3"
-
-[[pair]]
-name = "XLM_BG84"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "BG84"
-counter_asset_issuer = "GAZASMHBZFU42UASLMYHBPJ46KV32TVZZOVTW4Q5BJGQN75GAK4JSXT3"
-
-[[pair]]
-name = "XLM_BG85"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "BG85"
-counter_asset_issuer = "GAZASMHBZFU42UASLMYHBPJ46KV32TVZZOVTW4Q5BJGQN75GAK4JSXT3"
-
-[[pair]]
-name = "XLM_BG86"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "BG86"
-counter_asset_issuer = "GAZASMHBZFU42UASLMYHBPJ46KV32TVZZOVTW4Q5BJGQN75GAK4JSXT3"
-
-[[pair]]
-name = "XLM_BG87"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "BG87"
-counter_asset_issuer = "GAZASMHBZFU42UASLMYHBPJ46KV32TVZZOVTW4Q5BJGQN75GAK4JSXT3"
-
-[[pair]]
-name = "XLM_BG88"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "BG88"
-counter_asset_issuer = "GAZASMHBZFU42UASLMYHBPJ46KV32TVZZOVTW4Q5BJGQN75GAK4JSXT3"
-
-[[pair]]
-name = "XLM_BG89"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "BG89"
-counter_asset_issuer = "GAZASMHBZFU42UASLMYHBPJ46KV32TVZZOVTW4Q5BJGQN75GAK4JSXT3"
-
-[[pair]]
-name = "XLM_BG90"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "BG90"
-counter_asset_issuer = "GAZASMHBZFU42UASLMYHBPJ46KV32TVZZOVTW4Q5BJGQN75GAK4JSXT3"
-
-[[pair]]
-name = "XLM_BG91"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "BG91"
-counter_asset_issuer = "GAZASMHBZFU42UASLMYHBPJ46KV32TVZZOVTW4Q5BJGQN75GAK4JSXT3"
-
-[[pair]]
-name = "XLM_BG92"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "BG92"
-counter_asset_issuer = "GAZASMHBZFU42UASLMYHBPJ46KV32TVZZOVTW4Q5BJGQN75GAK4JSXT3"
-
-[[pair]]
-name = "XLM_BG93"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "BG93"
-counter_asset_issuer = "GAZASMHBZFU42UASLMYHBPJ46KV32TVZZOVTW4Q5BJGQN75GAK4JSXT3"
-
-[[pair]]
-name = "XLM_BG94"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "BG94"
-counter_asset_issuer = "GAZASMHBZFU42UASLMYHBPJ46KV32TVZZOVTW4Q5BJGQN75GAK4JSXT3"
-
-[[pair]]
-name = "XLM_BG95"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "BG95"
-counter_asset_issuer = "GAZASMHBZFU42UASLMYHBPJ46KV32TVZZOVTW4Q5BJGQN75GAK4JSXT3"
-
-[[pair]]
-name = "XLM_bitconnect"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "bitconnect"
-# toml = https://pr.network/.well-known/stellar.toml
-counter_asset_issuer = "GAZPKDTEZ5UM3BF4E7FL7EMXRMLH76F2TNVXRLOF6SCVXOFWSPCEWFI5"
-
-[[pair]]
 name = "XLM_bmarley"
 base_asset_code = "XLM"
 base_asset_issuer = "native"
@@ -692,413 +112,12 @@ counter_asset_code = "bmarley"
 counter_asset_issuer = "GAZPKDTEZ5UM3BF4E7FL7EMXRMLH76F2TNVXRLOF6SCVXOFWSPCEWFI5"
 
 [[pair]]
-name = "XLM_BNTI"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "BNTI"
-# toml = https://bounti.tech/.well-known/stellar.toml
-counter_asset_issuer = "GCBK7MRUD4OJQMTBZQGKR2HAMZCJRW5MSZUKJ2T6XVKAYPZLZNZI5BNT"
-
-[[pair]]
-name = "XLM_BOS"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "BOS"
-# toml = https://bosanchor.io/.well-known/stellar.toml
-counter_asset_issuer = "GDCW5YQVHCQCAGUDTZHS5TF6ZNZ2SQSB37BRMBJZIECPOTEXD3Y6BRA2"
-
-[[pair]]
 name = "XLM_BOT"
 base_asset_code = "XLM"
 base_asset_issuer = "native"
 counter_asset_code = "BOT"
 # toml = https://bostravel.online/.well-known/stellar.toml
 counter_asset_issuer = "GATTH3VPK4PMXLE7JSEJ3OC72OYOGJYINLHSCJX365BP6SAV6GKSHJAV"
-
-[[pair]]
-name = "XLM_BP70"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "BP70"
-counter_asset_issuer = "GAZASMHBZFU42UASLMYHBPJ46KV32TVZZOVTW4Q5BJGQN75GAK4JSXT3"
-
-[[pair]]
-name = "XLM_BP70"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "BP70"
-counter_asset_issuer = "GBBUC5YAOP5INGODW4SM7DJB26K4T2FV5RJCRDO5E773EHZVT74H67RF"
-
-[[pair]]
-name = "XLM_BP71"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "BP71"
-counter_asset_issuer = "GAZASMHBZFU42UASLMYHBPJ46KV32TVZZOVTW4Q5BJGQN75GAK4JSXT3"
-
-[[pair]]
-name = "XLM_BP72"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "BP72"
-counter_asset_issuer = "GAZASMHBZFU42UASLMYHBPJ46KV32TVZZOVTW4Q5BJGQN75GAK4JSXT3"
-
-[[pair]]
-name = "XLM_BP73"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "BP73"
-counter_asset_issuer = "GAZASMHBZFU42UASLMYHBPJ46KV32TVZZOVTW4Q5BJGQN75GAK4JSXT3"
-
-[[pair]]
-name = "XLM_BP74"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "BP74"
-counter_asset_issuer = "GAZASMHBZFU42UASLMYHBPJ46KV32TVZZOVTW4Q5BJGQN75GAK4JSXT3"
-
-[[pair]]
-name = "XLM_BP75"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "BP75"
-counter_asset_issuer = "GAZASMHBZFU42UASLMYHBPJ46KV32TVZZOVTW4Q5BJGQN75GAK4JSXT3"
-
-[[pair]]
-name = "XLM_BP76"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "BP76"
-counter_asset_issuer = "GAZASMHBZFU42UASLMYHBPJ46KV32TVZZOVTW4Q5BJGQN75GAK4JSXT3"
-
-[[pair]]
-name = "XLM_BP77"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "BP77"
-counter_asset_issuer = "GAZASMHBZFU42UASLMYHBPJ46KV32TVZZOVTW4Q5BJGQN75GAK4JSXT3"
-
-[[pair]]
-name = "XLM_BP78"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "BP78"
-counter_asset_issuer = "GAZASMHBZFU42UASLMYHBPJ46KV32TVZZOVTW4Q5BJGQN75GAK4JSXT3"
-
-[[pair]]
-name = "XLM_BP79"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "BP79"
-counter_asset_issuer = "GAZASMHBZFU42UASLMYHBPJ46KV32TVZZOVTW4Q5BJGQN75GAK4JSXT3"
-
-[[pair]]
-name = "XLM_BP80"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "BP80"
-counter_asset_issuer = "GAZASMHBZFU42UASLMYHBPJ46KV32TVZZOVTW4Q5BJGQN75GAK4JSXT3"
-
-[[pair]]
-name = "XLM_BP81"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "BP81"
-counter_asset_issuer = "GAZASMHBZFU42UASLMYHBPJ46KV32TVZZOVTW4Q5BJGQN75GAK4JSXT3"
-
-[[pair]]
-name = "XLM_BP81"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "BP81"
-counter_asset_issuer = "GBBUC5YAOP5INGODW4SM7DJB26K4T2FV5RJCRDO5E773EHZVT74H67RF"
-
-[[pair]]
-name = "XLM_BP82"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "BP82"
-counter_asset_issuer = "GAZASMHBZFU42UASLMYHBPJ46KV32TVZZOVTW4Q5BJGQN75GAK4JSXT3"
-
-[[pair]]
-name = "XLM_BP83"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "BP83"
-counter_asset_issuer = "GAZASMHBZFU42UASLMYHBPJ46KV32TVZZOVTW4Q5BJGQN75GAK4JSXT3"
-
-[[pair]]
-name = "XLM_BP84"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "BP84"
-counter_asset_issuer = "GAZASMHBZFU42UASLMYHBPJ46KV32TVZZOVTW4Q5BJGQN75GAK4JSXT3"
-
-[[pair]]
-name = "XLM_BP85"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "BP85"
-counter_asset_issuer = "GAZASMHBZFU42UASLMYHBPJ46KV32TVZZOVTW4Q5BJGQN75GAK4JSXT3"
-
-[[pair]]
-name = "XLM_BP85"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "BP85"
-counter_asset_issuer = "GBBUC5YAOP5INGODW4SM7DJB26K4T2FV5RJCRDO5E773EHZVT74H67RF"
-
-[[pair]]
-name = "XLM_BP86"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "BP86"
-counter_asset_issuer = "GAZASMHBZFU42UASLMYHBPJ46KV32TVZZOVTW4Q5BJGQN75GAK4JSXT3"
-
-[[pair]]
-name = "XLM_BP87"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "BP87"
-counter_asset_issuer = "GAZASMHBZFU42UASLMYHBPJ46KV32TVZZOVTW4Q5BJGQN75GAK4JSXT3"
-
-[[pair]]
-name = "XLM_BP88"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "BP88"
-counter_asset_issuer = "GAZASMHBZFU42UASLMYHBPJ46KV32TVZZOVTW4Q5BJGQN75GAK4JSXT3"
-
-[[pair]]
-name = "XLM_BP89"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "BP89"
-counter_asset_issuer = "GAZASMHBZFU42UASLMYHBPJ46KV32TVZZOVTW4Q5BJGQN75GAK4JSXT3"
-
-[[pair]]
-name = "XLM_BP90"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "BP90"
-counter_asset_issuer = "GAZASMHBZFU42UASLMYHBPJ46KV32TVZZOVTW4Q5BJGQN75GAK4JSXT3"
-
-[[pair]]
-name = "XLM_BP91"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "BP91"
-counter_asset_issuer = "GAZASMHBZFU42UASLMYHBPJ46KV32TVZZOVTW4Q5BJGQN75GAK4JSXT3"
-
-[[pair]]
-name = "XLM_BP92"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "BP92"
-counter_asset_issuer = "GAZASMHBZFU42UASLMYHBPJ46KV32TVZZOVTW4Q5BJGQN75GAK4JSXT3"
-
-[[pair]]
-name = "XLM_BP93"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "BP93"
-counter_asset_issuer = "GAZASMHBZFU42UASLMYHBPJ46KV32TVZZOVTW4Q5BJGQN75GAK4JSXT3"
-
-[[pair]]
-name = "XLM_BP94"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "BP94"
-counter_asset_issuer = "GAZASMHBZFU42UASLMYHBPJ46KV32TVZZOVTW4Q5BJGQN75GAK4JSXT3"
-
-[[pair]]
-name = "XLM_BP95"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "BP95"
-counter_asset_issuer = "GAZASMHBZFU42UASLMYHBPJ46KV32TVZZOVTW4Q5BJGQN75GAK4JSXT3"
-
-[[pair]]
-name = "XLM_BR70"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "BR70"
-counter_asset_issuer = "GAZASMHBZFU42UASLMYHBPJ46KV32TVZZOVTW4Q5BJGQN75GAK4JSXT3"
-
-[[pair]]
-name = "XLM_BR71"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "BR71"
-counter_asset_issuer = "GAZASMHBZFU42UASLMYHBPJ46KV32TVZZOVTW4Q5BJGQN75GAK4JSXT3"
-
-[[pair]]
-name = "XLM_BR72"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "BR72"
-counter_asset_issuer = "GAZASMHBZFU42UASLMYHBPJ46KV32TVZZOVTW4Q5BJGQN75GAK4JSXT3"
-
-[[pair]]
-name = "XLM_BR73"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "BR73"
-counter_asset_issuer = "GAZASMHBZFU42UASLMYHBPJ46KV32TVZZOVTW4Q5BJGQN75GAK4JSXT3"
-
-[[pair]]
-name = "XLM_BR74"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "BR74"
-counter_asset_issuer = "GAZASMHBZFU42UASLMYHBPJ46KV32TVZZOVTW4Q5BJGQN75GAK4JSXT3"
-
-[[pair]]
-name = "XLM_BR75"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "BR75"
-counter_asset_issuer = "GAZASMHBZFU42UASLMYHBPJ46KV32TVZZOVTW4Q5BJGQN75GAK4JSXT3"
-
-[[pair]]
-name = "XLM_BR76"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "BR76"
-counter_asset_issuer = "GAZASMHBZFU42UASLMYHBPJ46KV32TVZZOVTW4Q5BJGQN75GAK4JSXT3"
-
-[[pair]]
-name = "XLM_BR77"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "BR77"
-counter_asset_issuer = "GAZASMHBZFU42UASLMYHBPJ46KV32TVZZOVTW4Q5BJGQN75GAK4JSXT3"
-
-[[pair]]
-name = "XLM_BR78"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "BR78"
-counter_asset_issuer = "GAZASMHBZFU42UASLMYHBPJ46KV32TVZZOVTW4Q5BJGQN75GAK4JSXT3"
-
-[[pair]]
-name = "XLM_BR79"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "BR79"
-counter_asset_issuer = "GAZASMHBZFU42UASLMYHBPJ46KV32TVZZOVTW4Q5BJGQN75GAK4JSXT3"
-
-[[pair]]
-name = "XLM_BR80"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "BR80"
-counter_asset_issuer = "GAZASMHBZFU42UASLMYHBPJ46KV32TVZZOVTW4Q5BJGQN75GAK4JSXT3"
-
-[[pair]]
-name = "XLM_BR81"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "BR81"
-counter_asset_issuer = "GAZASMHBZFU42UASLMYHBPJ46KV32TVZZOVTW4Q5BJGQN75GAK4JSXT3"
-
-[[pair]]
-name = "XLM_BR82"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "BR82"
-counter_asset_issuer = "GAZASMHBZFU42UASLMYHBPJ46KV32TVZZOVTW4Q5BJGQN75GAK4JSXT3"
-
-[[pair]]
-name = "XLM_BR83"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "BR83"
-counter_asset_issuer = "GAZASMHBZFU42UASLMYHBPJ46KV32TVZZOVTW4Q5BJGQN75GAK4JSXT3"
-
-[[pair]]
-name = "XLM_BR84"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "BR84"
-counter_asset_issuer = "GAZASMHBZFU42UASLMYHBPJ46KV32TVZZOVTW4Q5BJGQN75GAK4JSXT3"
-
-[[pair]]
-name = "XLM_BR85"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "BR85"
-counter_asset_issuer = "GAZASMHBZFU42UASLMYHBPJ46KV32TVZZOVTW4Q5BJGQN75GAK4JSXT3"
-
-[[pair]]
-name = "XLM_BR86"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "BR86"
-counter_asset_issuer = "GAZASMHBZFU42UASLMYHBPJ46KV32TVZZOVTW4Q5BJGQN75GAK4JSXT3"
-
-[[pair]]
-name = "XLM_BR87"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "BR87"
-counter_asset_issuer = "GAZASMHBZFU42UASLMYHBPJ46KV32TVZZOVTW4Q5BJGQN75GAK4JSXT3"
-
-[[pair]]
-name = "XLM_BR88"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "BR88"
-counter_asset_issuer = "GAZASMHBZFU42UASLMYHBPJ46KV32TVZZOVTW4Q5BJGQN75GAK4JSXT3"
-
-[[pair]]
-name = "XLM_BR89"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "BR89"
-counter_asset_issuer = "GAZASMHBZFU42UASLMYHBPJ46KV32TVZZOVTW4Q5BJGQN75GAK4JSXT3"
-
-[[pair]]
-name = "XLM_BR90"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "BR90"
-counter_asset_issuer = "GAZASMHBZFU42UASLMYHBPJ46KV32TVZZOVTW4Q5BJGQN75GAK4JSXT3"
-
-[[pair]]
-name = "XLM_BR91"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "BR91"
-counter_asset_issuer = "GAZASMHBZFU42UASLMYHBPJ46KV32TVZZOVTW4Q5BJGQN75GAK4JSXT3"
-
-[[pair]]
-name = "XLM_BR92"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "BR92"
-counter_asset_issuer = "GAZASMHBZFU42UASLMYHBPJ46KV32TVZZOVTW4Q5BJGQN75GAK4JSXT3"
-
-[[pair]]
-name = "XLM_BR93"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "BR93"
-counter_asset_issuer = "GAZASMHBZFU42UASLMYHBPJ46KV32TVZZOVTW4Q5BJGQN75GAK4JSXT3"
-
-[[pair]]
-name = "XLM_BR94"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "BR94"
-counter_asset_issuer = "GAZASMHBZFU42UASLMYHBPJ46KV32TVZZOVTW4Q5BJGQN75GAK4JSXT3"
-
-[[pair]]
-name = "XLM_BR95"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "BR95"
-counter_asset_issuer = "GAZASMHBZFU42UASLMYHBPJ46KV32TVZZOVTW4Q5BJGQN75GAK4JSXT3"
 
 [[pair]]
 name = "XLM_BRIL"
@@ -1121,14 +140,6 @@ name = "XLM_BTC"
 base_asset_code = "XLM"
 base_asset_issuer = "native"
 counter_asset_code = "BTC"
-# toml = https://ripplefox.com/.well-known/stellar.toml
-counter_asset_issuer = "GAREELUB43IRHWEASCFBLKHURCGMHE5IF6XSE7EXDLACYHGRHM43RFOX"
-
-[[pair]]
-name = "XLM_BTC"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "BTC"
 # toml = https://naobtc.com/.well-known/stellar.toml
 counter_asset_issuer = "GATEMHCCKCY67ZUCKTROYN24ZYT5GK4EQZ65JJLDHKHRUZI3EUEKMTCH"
 
@@ -1145,7 +156,8 @@ name = "XLM_BTC"
 base_asset_code = "XLM"
 base_asset_issuer = "native"
 counter_asset_code = "BTC"
-counter_asset_issuer = "GBED3VZQEWDHIQU6YL4ANQCRJUKCGU2CML2GH75LQINF6DE6O6TMLLSW"
+# toml = https://ocean.poseidon.eco/.well-known/stellar.toml
+counter_asset_issuer = "GBK5UTRC5Y26MZ243QEUVXZUICTJWR7K2BY5CTATUR6KNR73GL57MDSZ"
 
 [[pair]]
 name = "XLM_BTC"
@@ -1160,47 +172,8 @@ name = "XLM_BTC"
 base_asset_code = "XLM"
 base_asset_issuer = "native"
 counter_asset_code = "BTC"
-# toml = https://funtracker.site/.well-known/stellar.toml
-counter_asset_issuer = "GBUYUAI75XXWDZEKLY66CFYKQPET5JR4EENXZBUZ3YXZ7DS56Z4OKOFU"
-
-[[pair]]
-name = "XLM_BTC"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "BTC"
-# toml = https://stellarport.io/.well-known/stellar.toml
-counter_asset_issuer = "GBVOL67TMUQBGL4TZYNMY3ZQ5WGQYFPFD5VJRWXR72VA33VFNL225PL5"
-
-[[pair]]
-name = "XLM_BTC"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "BTC"
-# toml = https://smartlands.io/.well-known/stellar.toml
-counter_asset_issuer = "GCKA6K5PCQ6PNF5RQBF7PQDJWRHO6UOGFMRLK3DYHDOI244V47XKQ4GP"
-
-[[pair]]
-name = "XLM_BTC"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "BTC"
-# toml = https://interstellar.exchange/.well-known/stellar.toml
-counter_asset_issuer = "GCNSGHUCG5VMGLT5RIYYZSO7VQULQKAJ62QA33DBC5PPBSO57LFWVV6P"
-
-[[pair]]
-name = "XLM_BTC"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "BTC"
-counter_asset_issuer = "GCYK67DDGBOANS6UODJ62QWGLEB2A7JQ3XUV25HCMLT7CI23PMMK3W6R"
-
-[[pair]]
-name = "XLM_BTC"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "BTC"
-# toml = https://liquido.i-server.org/.well-known/stellar.toml
-counter_asset_issuer = "GD2RRX6BKVTORZ6RIMBLWFVUOAYOLTS2QFJQUQPXLI3PBHR3TMLQNGZX"
+# toml = https://www.inmin.it/.well-known/stellar.toml
+counter_asset_issuer = "GC3KSWE44G4OFIK2M4FEHKKMBQXXEG56XUYJPW7LAUEMUZWC2MW4QMJJ"
 
 [[pair]]
 name = "XLM_BTC"
@@ -1218,35 +191,6 @@ counter_asset_code = "BTC"
 counter_asset_issuer = "GDGQDVO6XPFSY4NMX75A7AOVYCF5JYGW2SHCJJNWCQWIDGOZB53DGP6C"
 
 [[pair]]
-name = "XLM_BTC"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "BTC"
-counter_asset_issuer = "GDKMRUWJI27667MXS6YEOEHGXNXHC4ORRQMPWCCIGLLOPRF4T3YXLMBD"
-
-[[pair]]
-name = "XLM_BTC"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "BTC"
-# toml = https://vcbear.net/.well-known/stellar.toml
-counter_asset_issuer = "GDXTJEK4JZNSTNQAWA53RZNS2GIKTDRPEUWDXELFMKU52XNECNVDVXDI"
-
-[[pair]]
-name = "XLM_BTT"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "BTT"
-counter_asset_issuer = "GAZASMHBZFU42UASLMYHBPJ46KV32TVZZOVTW4Q5BJGQN75GAK4JSXT3"
-
-[[pair]]
-name = "XLM_BTT"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "BTT"
-counter_asset_issuer = "GBBUC5YAOP5INGODW4SM7DJB26K4T2FV5RJCRDO5E773EHZVT74H67RF"
-
-[[pair]]
 name = "XLM_CAD"
 base_asset_code = "XLM"
 base_asset_issuer = "native"
@@ -1254,36 +198,20 @@ counter_asset_code = "CAD"
 counter_asset_issuer = "GABK2IHWW7BCRPP3BL6WMOMDBPHCBJR2SLP5HAUBYKNZG5J5RJSROS5S"
 
 [[pair]]
-name = "XLM_CASH"
+name = "XLM_CARBONCREDIT"
 base_asset_code = "XLM"
 base_asset_issuer = "native"
-counter_asset_code = "CASH"
-# toml = https://centaurus.xcoins.de/.well-known/stellar.toml
-counter_asset_issuer = "GDDHMZ5GMZY7Y26FDVUYEZEUADAJ5Y7AEBPNJCCSJGW3GGARZZIRQ4X4"
-
-[[pair]]
-name = "XLM_cbale"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "cbale"
-# toml = https://pr.network/.well-known/stellar.toml
-counter_asset_issuer = "GAZPKDTEZ5UM3BF4E7FL7EMXRMLH76F2TNVXRLOF6SCVXOFWSPCEWFI5"
+counter_asset_code = "CARBONCREDIT"
+# toml = https://ocean.poseidon.eco/.well-known/stellar.toml
+counter_asset_issuer = "GBK5UTRC5Y26MZ243QEUVXZUICTJWR7K2BY5CTATUR6KNR73GL57MDSZ"
 
 [[pair]]
 name = "XLM_CBR"
 base_asset_code = "XLM"
 base_asset_issuer = "native"
 counter_asset_code = "CBR"
-# toml = https://cybercoinium/.well-known/stellar.toml
-counter_asset_issuer = "GDCV2TWD7LV5PFNYRKFJSODKWPNWIRE3Y3YHUVFDYMC5EBJ3B57IN5MK"
-
-[[pair]]
-name = "XLM_CCC"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "CCC"
-# toml = https://capitalcryptoworld.io/.well-known/stellar.toml
-counter_asset_issuer = "GCJ5FI4Z4GEJIZAURWS6XKM22ZV2T4BPXKVY522DCZHCWP5OQTXX53VQ"
+# toml = https://Cybercoinium/.well-known/stellar.toml
+counter_asset_issuer = "GATTHBX47IREXQADZVY2ZX5M3TORYEWSZSSJ3S5ACUO2NNSLEMEPRCIU"
 
 [[pair]]
 name = "XLM_CDT"
@@ -1292,37 +220,6 @@ base_asset_issuer = "native"
 counter_asset_code = "CDT"
 # toml = https://circumstance.ddns.net/.well-known/stellar.toml
 counter_asset_issuer = "GANTR62RU73YYQJIQIB7LUGBBAIDZE76LA4YUBLH24IH2AKUKXIXF7E5"
-
-[[pair]]
-name = "XLM_CDX"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "CDX"
-counter_asset_issuer = "GBHIAHIT6ELVEBNSOON357RRMA7KI3ZX4R65REB7VG4P7WNUO6VEPDJB"
-
-[[pair]]
-name = "XLM_CEC"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "CEC"
-# toml = https://coinextra.net/.well-known/stellar.toml
-counter_asset_issuer = "GDMI7UXVLJCX7H7P3L72Z5XVKCHXBTTIQKVXHNGYM5KDOCVZPTR6HX2Y"
-
-[[pair]]
-name = "XLM_CHARITY0TFT2"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "CHARITY0TFT2"
-# toml = https://charity-hub.org/.well-known/stellar.toml
-counter_asset_issuer = "GBI4OTGDR7FNPN5KUU2JAV55TZQOH4N7S6CWFAYGTOOFMB5FSZY3EVTJ"
-
-[[pair]]
-name = "XLM_chase"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "chase"
-# toml = https://pr.network/.well-known/stellar.toml
-counter_asset_issuer = "GAZPKDTEZ5UM3BF4E7FL7EMXRMLH76F2TNVXRLOF6SCVXOFWSPCEWFI5"
 
 [[pair]]
 name = "XLM_CHRC"
@@ -1338,28 +235,6 @@ base_asset_code = "XLM"
 base_asset_issuer = "native"
 counter_asset_code = "CHRC"
 counter_asset_issuer = "GCE2QU2TCODX4LQWIH6RM3YFH4B4WS3QCGGTH3S5JRBH3AZ6TJLVRYTJ"
-
-[[pair]]
-name = "XLM_cisco"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "cisco"
-# toml = https://pr.network/.well-known/stellar.toml
-counter_asset_issuer = "GAZPKDTEZ5UM3BF4E7FL7EMXRMLH76F2TNVXRLOF6SCVXOFWSPCEWFI5"
-
-[[pair]]
-name = "XLM_CLIC"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "CLIC"
-counter_asset_issuer = "GAK57X2CTYIJDU3GIS63AJKNCUSNP4MFVSKZGB252RM6SLAVXAICFQHT"
-
-[[pair]]
-name = "XLM_CLIX"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "CLIX"
-counter_asset_issuer = "GD7YX6ZU3RKU3ODQ36FSRALSMH6QX5POJRDI7LWYTTNK2YBOPWRXBO34"
 
 [[pair]]
 name = "XLM_CLPX"
@@ -1400,26 +275,12 @@ counter_asset_code = "CM3"
 counter_asset_issuer = "GDU2FEL6THGGOFDHHP4I5FHNWY4S2SXYUBCEDB5ZREMD6UFRT4SYWSW2"
 
 [[pair]]
-name = "XLM_CM3x2"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "CM3x2"
-counter_asset_issuer = "GA4BYMUO5D7OLGVJWZ2D5FCWU7SB63FNZ4QUU574SMNA6ELK5TZD3SO3"
-
-[[pair]]
 name = "XLM_CMA"
 base_asset_code = "XLM"
 base_asset_issuer = "native"
 counter_asset_code = "CMA"
 # toml = https://cryptomover.com/.well-known/stellar.toml
 counter_asset_issuer = "GBWZHAVWY23QKKDJW7TXLSIHY5EX4NIB37O4NMRKN2SKNWOSE5TEPCY3"
-
-[[pair]]
-name = "XLM_CME"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "CME"
-counter_asset_issuer = "GA4BYMUO5D7OLGVJWZ2D5FCWU7SB63FNZ4QUU574SMNA6ELK5TZD3SO3"
 
 [[pair]]
 name = "XLM_CMS"
@@ -1434,31 +295,8 @@ name = "XLM_CNY"
 base_asset_code = "XLM"
 base_asset_issuer = "native"
 counter_asset_code = "CNY"
-# toml = https://stellar.chenyuzhifu.com/.well-known/stellar.toml
-counter_asset_issuer = "GAOT23KBW2HL6HVZFPNFLLT5VGIKGTLGR3AFDHYSRIWS4QKBYRPUW4N3"
-
-[[pair]]
-name = "XLM_CNY"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "CNY"
 # toml = https://ripplefox.com/.well-known/stellar.toml
 counter_asset_issuer = "GAREELUB43IRHWEASCFBLKHURCGMHE5IF6XSE7EXDLACYHGRHM43RFOX"
-
-[[pair]]
-name = "XLM_CNY"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "CNY"
-counter_asset_issuer = "GDJAKTPVY3IQYKSKHJXXTN6QB4MQX2ULTOMQLP4HFGSL6NYWFUIUYK7F"
-
-[[pair]]
-name = "XLM_cocacola"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "cocacola"
-# toml = https://pr.network/.well-known/stellar.toml
-counter_asset_issuer = "GAZPKDTEZ5UM3BF4E7FL7EMXRMLH76F2TNVXRLOF6SCVXOFWSPCEWFI5"
 
 [[pair]]
 name = "XLM_COLDT"
@@ -1466,14 +304,6 @@ base_asset_code = "XLM"
 base_asset_issuer = "native"
 counter_asset_code = "COLDT"
 counter_asset_issuer = "GDYLEAQBJUPTMLMPDXW2EPUQEYKKWFI75645FANW4HLHSH3AYOLVPDMO"
-
-[[pair]]
-name = "XLM_COLL"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "COLL"
-# toml = https://collegecoin.org/.well-known/stellar.toml
-counter_asset_issuer = "GABCMFJDVQVKTKWBEYDEYIBVQ7JKEMPQ5DM4UT2H4SUYCNG2SCNZWI55"
 
 [[pair]]
 name = "XLM_COP"
@@ -1484,58 +314,12 @@ counter_asset_code = "COP"
 counter_asset_issuer = "GAEDLNMCQZOSLY7Y4NW3DTEWQEVVCXYYMBDNGPPGBMQH4GFYECBI7YVK"
 
 [[pair]]
-name = "XLM_COT"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "COT"
-# toml = https://coinet.network/.well-known/stellar.toml
-counter_asset_issuer = "GBROPPMUUQI7REEN2ADIJX5MKLPGTHKXBGV3APWBDW24NXXRXHB5V5BO"
-
-[[pair]]
-name = "XLM_cronaldo"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "cronaldo"
-# toml = https://pr.network/.well-known/stellar.toml
-counter_asset_issuer = "GAZPKDTEZ5UM3BF4E7FL7EMXRMLH76F2TNVXRLOF6SCVXOFWSPCEWFI5"
-
-[[pair]]
 name = "XLM_CROSS"
 base_asset_code = "XLM"
 base_asset_issuer = "native"
 counter_asset_code = "CROSS"
 # toml = https://www.cross-hedge.com/.well-known/stellar.toml
 counter_asset_issuer = "GD5F34DV7EWDOTHW7UZPIJS5CRJCBN2B77OSSVOD2CSYJWPZDQ4PKOJ5"
-
-[[pair]]
-name = "XLM_cryptopia"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "cryptopia"
-# toml = https://pr.network/.well-known/stellar.toml
-counter_asset_issuer = "GAZPKDTEZ5UM3BF4E7FL7EMXRMLH76F2TNVXRLOF6SCVXOFWSPCEWFI5"
-
-[[pair]]
-name = "XLM_DASH"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "DASH"
-# toml = https://apay.io/.well-known/stellar.toml
-counter_asset_issuer = "GDFGEXEBIMLP5UFC36TFENBHRJSW7AQZUPXNTTM2WO532KBXCVPUKFGB"
-
-[[pair]]
-name = "XLM_DAY"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "DAY"
-counter_asset_issuer = "GAELLKQPLBQVZZURK7JT45U22RQIU2DN57HPGBOGQYJLPGN25NEZKT7U"
-
-[[pair]]
-name = "XLM_DEER"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "DEER"
-counter_asset_issuer = "GAUVC6OYMHF5VFL5SWIIXBRBODTCMNBHJUS44SQSWWERU6E3X6QPWO5H"
 
 [[pair]]
 name = "XLM_DEV"
@@ -1546,60 +330,12 @@ counter_asset_code = "DEV"
 counter_asset_issuer = "GB354ZDARVTGN3N54RJRBEAH6N3AJCPP5PXRNNIXHONKGIF54XKIITAY"
 
 [[pair]]
-name = "XLM_DIRK"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "DIRK"
-# toml = https://stellar.church/.well-known/stellar.toml
-counter_asset_issuer = "GBMRDKGMW2XDH7AB52E5KMTEC7FWJFFEEYWVIB7NY3ZFX2E3IMA5EMUF"
-
-[[pair]]
-name = "XLM_DKEP"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "DKEP"
-# toml = https://dkeproject.com/.well-known/stellar.toml
-counter_asset_issuer = "GDVEVYAJWAL6GFBO545IVL7GOGT2O52BQW722CAJDKYONT5YE63YITQL"
-
-[[pair]]
-name = "XLM_dogecoin"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "dogecoin"
-# toml = https://pr.network/.well-known/stellar.toml
-counter_asset_issuer = "GAZPKDTEZ5UM3BF4E7FL7EMXRMLH76F2TNVXRLOF6SCVXOFWSPCEWFI5"
-
-[[pair]]
-name = "XLM_dominospizza"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "dominospizza"
-# toml = https://pr.network/.well-known/stellar.toml
-counter_asset_issuer = "GAZPKDTEZ5UM3BF4E7FL7EMXRMLH76F2TNVXRLOF6SCVXOFWSPCEWFI5"
-
-[[pair]]
-name = "XLM_donaldtrump"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "donaldtrump"
-# toml = https://pr.network/.well-known/stellar.toml
-counter_asset_issuer = "GAZPKDTEZ5UM3BF4E7FL7EMXRMLH76F2TNVXRLOF6SCVXOFWSPCEWFI5"
-
-[[pair]]
 name = "XLM_DRA"
 base_asset_code = "XLM"
 base_asset_issuer = "native"
 counter_asset_code = "DRA"
 # toml = https://www.diruna.org/.well-known/stellar.toml
 counter_asset_issuer = "GCJKSAQECBGSLPQWAU7ME4LVQVZ6IDCNUA5NVTPPCUWZWBN5UBFMXZ53"
-
-[[pair]]
-name = "XLM_einstein"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "einstein"
-# toml = https://pr.network/.well-known/stellar.toml
-counter_asset_issuer = "GAZPKDTEZ5UM3BF4E7FL7EMXRMLH76F2TNVXRLOF6SCVXOFWSPCEWFI5"
 
 [[pair]]
 name = "XLM_EKO"
@@ -1618,13 +354,6 @@ counter_asset_code = "emusk"
 counter_asset_issuer = "GAZPKDTEZ5UM3BF4E7FL7EMXRMLH76F2TNVXRLOF6SCVXOFWSPCEWFI5"
 
 [[pair]]
-name = "XLM_EOS"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "EOS"
-counter_asset_issuer = "GD7UYAG6PO3VA4HTIIWQ5CC7SP4WSJVOWLDZWKYNRTCFMWDWNUCBF3XT"
-
-[[pair]]
 name = "XLM_EQD"
 base_asset_code = "XLM"
 base_asset_issuer = "native"
@@ -1639,37 +368,6 @@ base_asset_issuer = "native"
 counter_asset_code = "EQD"
 # toml = https://equid.co/.well-known/stellar.toml
 counter_asset_issuer = "GCGEQJR3E5BVMQYSNCHPO6NPP3KOT4VVZHIOLSRSNLE2GFY7EWVSLLTN"
-
-[[pair]]
-name = "XLM_ESDT"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "ESDT"
-counter_asset_issuer = "GAOTIY32H7QIUXXA6AADNYOLVRUUG7S43MFJGDALZ7PJODCHLRXIW26F"
-
-[[pair]]
-name = "XLM_ESDT"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "ESDT"
-# toml = https://clic.world/.well-known/stellar.toml
-counter_asset_issuer = "GDPQRGW5VNJU63L6R573S65DW4XSJZEXPH4IG5EMJBQD3QUCXSLVFW7A"
-
-[[pair]]
-name = "XLM_ESPRESSO"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "ESPRESSO"
-# toml = https://stellar.dance/.well-known/stellar.toml
-counter_asset_issuer = "GDADO2SWPW5KMJNMP7HQXT7JDY2WD2A5BKWOJOIS3BLUBOQADOGFUZTY"
-
-[[pair]]
-name = "XLM_ETC"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "ETC"
-# toml = https://liquido.i-server.org/.well-known/stellar.toml
-counter_asset_issuer = "GD2RRX6BKVTORZ6RIMBLWFVUOAYOLTS2QFJQUQPXLI3PBHR3TMLQNGZX"
 
 [[pair]]
 name = "XLM_ETH"
@@ -1740,13 +438,6 @@ name = "XLM_ETH"
 base_asset_code = "XLM"
 base_asset_issuer = "native"
 counter_asset_code = "ETH"
-counter_asset_issuer = "GD6G33B7A3TKWCG3TKCIVJTVJGWUWUCMEDHGOOQYSYUMHY76VWJ5Q5IE"
-
-[[pair]]
-name = "XLM_ETH"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "ETH"
 counter_asset_issuer = "GDGKBRCPW4C3ENNC5C64PE6U33MG52GBKFXOK5P3OSWF74DAOXRXV6OJ"
 
 [[pair]]
@@ -1762,8 +453,7 @@ name = "XLM_EUR"
 base_asset_code = "XLM"
 base_asset_issuer = "native"
 counter_asset_code = "EUR"
-# toml = https://tempo.eu.com/.well-known/stellar.toml
-counter_asset_issuer = "GDI73WJ4SX7LOG3XZDJC3KCK6ED6E5NBYK2JUBQSPBCNNWEG3ZN7T75U"
+counter_asset_issuer = "GAKBPBDMW6CTRDCXNAPSVJZ6QAN3OBNRG6CWI27FGDQT2ZJJEMDRXPKK"
 
 [[pair]]
 name = "XLM_EUR"
@@ -1774,27 +464,26 @@ counter_asset_code = "EURT"
 counter_asset_issuer = "GAP5LETOV6YIE62YAM56STDANPRDO7ZFDBGSNHJQIYGGKSMOZAHOOS2S"
 
 [[pair]]
-name = "XLM_EVO"
+name = "XLM_EVER"
 base_asset_code = "XLM"
 base_asset_issuer = "native"
-counter_asset_code = "EVO"
-# toml = https://eveland.io/.well-known/stellar.toml
-counter_asset_issuer = "GCNGQEDAOIM6T6QFSYVG5LQ5CR5TQ2CVZI2L4RTTU75YKTLBPZI7KBHH"
+counter_asset_code = "EVER"
+# toml = https://everlife.ai/.well-known/stellar.toml
+counter_asset_issuer = "GDRCJ5OJTTIL4VUQZ52PCZYAUINEH2CUSP5NC2R6D6WQ47JBLG6DF5TE"
 
 [[pair]]
-name = "XLM_fcbarcelona"
+name = "XLM_F2UPay"
 base_asset_code = "XLM"
 base_asset_issuer = "native"
-counter_asset_code = "fcbarcelona"
-# toml = https://pr.network/.well-known/stellar.toml
-counter_asset_issuer = "GAZPKDTEZ5UM3BF4E7FL7EMXRMLH76F2TNVXRLOF6SCVXOFWSPCEWFI5"
+counter_asset_code = "F2UPay"
+counter_asset_issuer = "GCO7FSRST234N46BUTIXZQDBPZ55JE2BFYH4DYKFS2EEDYKD4VUQAZK4"
 
 [[pair]]
-name = "XLM_foryardven37"
+name = "XLM_F2UPhone"
 base_asset_code = "XLM"
 base_asset_issuer = "native"
-counter_asset_code = "foryardven37"
-counter_asset_issuer = "GBCWTQJALYWSTVVA5RJBFSTBFS5CLJX7O4E6KJC4SLIB5N3UBP56UJU6"
+counter_asset_code = "F2UPhone"
+counter_asset_issuer = "GCO7FSRST234N46BUTIXZQDBPZ55JE2BFYH4DYKFS2EEDYKD4VUQAZK4"
 
 [[pair]]
 name = "XLM_FRAS"
@@ -1805,50 +494,18 @@ counter_asset_code = "FRAS"
 counter_asset_issuer = "GC75WHUIMU7LV6WURMCA5GGF2S5FWFOK7K5VLR2WGRKWKZQAJQEBM53M"
 
 [[pair]]
-name = "XLM_FTR"
+name = "XLM_FRPINR"
 base_asset_code = "XLM"
 base_asset_issuer = "native"
-counter_asset_code = "FTR"
-# toml = https://www.factrpay.io/.well-known/stellar.toml
-counter_asset_issuer = "GAQ6W5I7LIWQAE47ZY7EQWRVVF2JELYXG6OKL7HHOSL5MWVEIGRPGYCO"
+counter_asset_code = "FRPINR"
+counter_asset_issuer = "GCO7FSRST234N46BUTIXZQDBPZ55JE2BFYH4DYKFS2EEDYKD4VUQAZK4"
 
 [[pair]]
-name = "XLM_FUCK"
+name = "XLM_FRPUSD"
 base_asset_code = "XLM"
 base_asset_issuer = "native"
-counter_asset_code = "FUCK"
-# toml = https://ermahgerd.wtf/.well-known/stellar.toml
-counter_asset_issuer = "GCED3S3NSN46IXVIMTLIVO6TG6O57Y2EEAW6VS7FSUAAMIFQ67C7O4XI"
-
-[[pair]]
-name = "XLM_FUNT"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "FUNT"
-# toml = https://funtracker.site/.well-known/stellar.toml
-counter_asset_issuer = "GBUYUAI75XXWDZEKLY66CFYKQPET5JR4EENXZBUZ3YXZ7DS56Z4OKOFU"
-
-[[pair]]
-name = "XLM_FWC"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "FWC"
-counter_asset_issuer = "GAUVC6OYMHF5VFL5SWIIXBRBODTCMNBHJUS44SQSWWERU6E3X6QPWO5H"
-
-[[pair]]
-name = "XLM_GALT"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "GALT"
-# toml = https://galtbank.com/.well-known/stellar.toml
-counter_asset_issuer = "GBANK7OKSC2AVD6HQM65XRBHBH3F76PYDHJCWLVUDR5JBVWFGLVQMPZA"
-
-[[pair]]
-name = "XLM_GBP"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "GBP"
-counter_asset_issuer = "GDMQKKWX5DB5LP3QNJBNV7YWTHZUDDPIDI7FXAUGUJJVIMFNPFL3PLPK"
+counter_asset_code = "FRPUSD"
+counter_asset_issuer = "GCO7FSRST234N46BUTIXZQDBPZ55JE2BFYH4DYKFS2EEDYKD4VUQAZK4"
 
 [[pair]]
 name = "XLM_GFT"
@@ -1857,42 +514,6 @@ base_asset_issuer = "native"
 counter_asset_code = "GFT"
 # toml = https://gft.network/.well-known/stellar.toml
 counter_asset_issuer = "GAAZUE4PKMKLA7QC2MPUIUXY7BZK2WUCK7Q5EELSDLK4FE3X4DZTSCKN"
-
-[[pair]]
-name = "XLM_GGBC"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "GGBC"
-counter_asset_issuer = "GA2O6HL55EZ2K7E3ATNZTZ2M77VDMHZSF7H5YKFTYIFBB4LFAE3A5LY3"
-
-[[pair]]
-name = "XLM_GG"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "GG"
-counter_asset_issuer = "GBFW6VE5ZKPWDA4U7YADPVB3VQ4NLFQ4VNYDR2RE6V3GAO5NQ3CH57RD"
-
-[[pair]]
-name = "XLM_GLO"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "GLO"
-counter_asset_issuer = "GAF5BAGEUOYG377WGQ7DYK3LI3TTQQN6773P22ENB245V5EMO63FO2YW"
-
-[[pair]]
-name = "XLM_GLO"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "GLO"
-counter_asset_issuer = "GCTDZMHJO5KQ3EOH4UPTTF7POHOI4SJENJHC4XAQ3KQRPSY5N3FPVZWO"
-
-[[pair]]
-name = "XLM_googleinc"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "googleinc"
-# toml = https://pr.network/.well-known/stellar.toml
-counter_asset_issuer = "GAZPKDTEZ5UM3BF4E7FL7EMXRMLH76F2TNVXRLOF6SCVXOFWSPCEWFI5"
 
 [[pair]]
 name = "XLM_GRAT"
@@ -1907,62 +528,8 @@ name = "XLM_GTN"
 base_asset_code = "XLM"
 base_asset_issuer = "native"
 counter_asset_code = "GTN"
-# toml = https://www.glitzkoin.com/.well-known/stellar.toml
-counter_asset_issuer = "GA2IX6DFAUZD7OTDNEIX3SOJBOFQ5QQ2ACPYY6EEJFZT64HJAGKWCLMP"
-
-[[pair]]
-name = "XLM_GTN"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "GTN"
 # toml = https://glitzkoin.com/.well-known/stellar.toml
 counter_asset_issuer = "GARFMAHQM4JDI55SK2FGEPLOZU7BTEODS3Y5QNT3VMQQIU3WV2HTBA46"
-
-[[pair]]
-name = "XLM_GTshare"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "GTshare"
-# toml = https://gaudia-tech.com/.well-known/stellar.toml
-counter_asset_issuer = "GBOTNDWSQLVKI4RARHVIYMBM4FBJJXSQ7FH6EGJWQU24M2SBFH7CAR7A"
-
-[[pair]]
-name = "XLM_GTT"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "GTT"
-# toml = https://gaudia-tech.com/.well-known/stellar.toml
-counter_asset_issuer = "GBSO63GMXZKXGY3XL3SMQIQJ2JHK4USIABOOXWXZD7P3FCLHNY7Q64XS"
-
-[[pair]]
-name = "XLM_GTTpresale1"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "GTTpresale1"
-# toml = https://gaudia-tech.com/.well-known/stellar.toml
-counter_asset_issuer = "GBSO63GMXZKXGY3XL3SMQIQJ2JHK4USIABOOXWXZD7P3FCLHNY7Q64XS"
-
-[[pair]]
-name = "XLM_GTX"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "GTX"
-counter_asset_issuer = "GAUVC6OYMHF5VFL5SWIIXBRBODTCMNBHJUS44SQSWWERU6E3X6QPWO5H"
-
-[[pair]]
-name = "XLM_HAWKING"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "HAWKING"
-counter_asset_issuer = "GAUO56MPRKDSOS7LU6YXDOSGK7IP7KVUANITOBNMVIZP7JYJ5HYUTHNE"
-
-[[pair]]
-name = "XLM_heineken"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "heineken"
-# toml = https://pr.network/.well-known/stellar.toml
-counter_asset_issuer = "GAZPKDTEZ5UM3BF4E7FL7EMXRMLH76F2TNVXRLOF6SCVXOFWSPCEWFI5"
 
 [[pair]]
 name = "XLM_HEIR"
@@ -1983,31 +550,9 @@ counter_asset_issuer = "GA4BYMUO5D7OLGVJWZ2D5FCWU7SB63FNZ4QUU574SMNA6ELK5TZD3SO3
 name = "XLM_HKD"
 base_asset_code = "XLM"
 base_asset_issuer = "native"
-counter_asset_code = "HKD"
-counter_asset_issuer = "GAWYI6R4MGETJOXLQ4NNZHEIHUKADXB7LOB6LFGUE5OBJTV74FUK4VHS"
-
-[[pair]]
-name = "XLM_HKD"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
 counter_asset_code = "HKDT"
 # toml = https://cryptomover.com/.well-known/stellar.toml
 counter_asset_issuer = "GABSZVZBYEO5F4V5LZKV7GR4SAJ5IKJGGOF43BIN42FNDUG7QPH6IMRQ"
-
-[[pair]]
-name = "XLM_HOT"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "HOT"
-# toml = https://holo.host/.well-known/stellar.toml
-counter_asset_issuer = "GAK3FZ2NC3SVA3JAADWTU63VXRKGR5BLKU3MUOCYTBPOII42N6OKVHRQ"
-
-[[pair]]
-name = "XLM_HOUR"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "HOUR"
-counter_asset_issuer = "GA2L7HVLDVJ76HKSPGR3IRD2ZX2AWHRPGA7PKAEGNUIAPKIL72GX5UEG"
 
 [[pair]]
 name = "XLM_HTKN"
@@ -2018,73 +563,12 @@ counter_asset_code = "HTKN"
 counter_asset_issuer = "GDD3GI3XKPRCU7NUSXJKRZJXLHYX35LQWO6VLZRN2SHMOK7OMGGLHTKN"
 
 [[pair]]
-name = "XLM_HUAT"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "HUAT"
-# toml = https://api.angbao.shop/.well-known/stellar.toml
-counter_asset_issuer = "GCD7VF3GNKZVFOLQHPJ74SES7PWX4MOPQ2DM3NQQZVE4KM7PXVARZTGY"
-
-[[pair]]
-name = "XLM_HUG"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "HUG"
-counter_asset_issuer = "GD5T6IPRNCKFOHQWT264YPKOZAWUMMZOLZBJ6BNQMUGPWGRLBK3U7ZNP"
-
-[[pair]]
-name = "XLM_IBI"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "IBI"
-# toml = https://ibithub.com/.well-known/stellar.toml
-counter_asset_issuer = "GAOUDHASO6M2EIXNVJYQV5754YXCTJ4PWOQSOEDLCJLYBSWJ6N7WRFH4"
-
-[[pair]]
-name = "XLM_ibm"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "ibm"
-# toml = https://pr.network/.well-known/stellar.toml
-counter_asset_issuer = "GAZPKDTEZ5UM3BF4E7FL7EMXRMLH76F2TNVXRLOF6SCVXOFWSPCEWFI5"
-
-[[pair]]
 name = "XLM_ICN"
 base_asset_code = "XLM"
 base_asset_issuer = "native"
 counter_asset_code = "ICN"
 # toml = https://apay.io/.well-known/stellar.toml
 counter_asset_issuer = "GBDEVU63Y6NTHJQQZIKVTC23NWLQVP3WJ2RI2OTSJTNYOIGICST6DUXR"
-
-[[pair]]
-name = "XLM_IDR"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "IDR"
-# toml = https://coinrupiah.com/.well-known/stellar.toml
-counter_asset_issuer = "GDSLBQ2EHWKK3UZJ2QTXQKM3TY5PJ4KYH3MSYXWKXHCHTQU67PXE2TVP"
-
-[[pair]]
-name = "XLM_IGDUCA92"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "IGDUCA92"
-counter_asset_issuer = "GAJUNSKAMQSIAX4ZM63LUXK7WT6TC7R2BBYHCWJCDGDG27B5T3TW3AUN"
-
-[[pair]]
-name = "XLM_IIT"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "IIT"
-# toml = https://innovationinvestments.biz/.well-known/stellar.toml
-counter_asset_issuer = "GC2AYYJGTFKGLO5DTVTNJYGTGEM3VKKGISWWDT7OLSTDRHE33GAX7HZL"
-
-[[pair]]
-name = "XLM_IL"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "IL"
-counter_asset_issuer = "GAVTPMQLVFRMZ6KQAVYTMMIXXAD537A2TU7LMT4LPDRG6ALSBJWZNCNT"
 
 [[pair]]
 name = "XLM_IND"
@@ -2094,42 +578,34 @@ counter_asset_code = "IND"
 counter_asset_issuer = "GDRIJYRMVRUPGOVSL5P6CQTBLQFICPE726XVQ4LCVYME7KWVWF5OSHQR"
 
 [[pair]]
+name = "XLM_INR"
+base_asset_code = "XLM"
+base_asset_issuer = "native"
+counter_asset_code = "INR"
+counter_asset_issuer = "GCO7FSRST234N46BUTIXZQDBPZ55JE2BFYH4DYKFS2EEDYKD4VUQAZK4"
+
+[[pair]]
+name = "XLM_INV"
+base_asset_code = "XLM"
+base_asset_issuer = "native"
+counter_asset_code = "INV"
+# toml = https://wijjit.com/.well-known/stellar.toml
+counter_asset_issuer = "GD6C35JYPPGP57PWELPTWM2BLFCRWAGFU2HARMBDHJ5JFHMJGCLXAN6X"
+
+[[pair]]
+name = "XLM_ISBN"
+base_asset_code = "XLM"
+base_asset_issuer = "native"
+counter_asset_code = "ISBN"
+counter_asset_issuer = "GCO7FSRST234N46BUTIXZQDBPZ55JE2BFYH4DYKFS2EEDYKD4VUQAZK4"
+
+[[pair]]
 name = "XLM_ITC"
 base_asset_code = "XLM"
 base_asset_issuer = "native"
 counter_asset_code = "ITC"
 # toml = https://itc.taxi/.well-known/stellar.toml
 counter_asset_issuer = "GDYNTLU4SXVDHEZKQ7NQCDUPMJ2WGBGJLGHA3YZNPFHBMN7ZBYBJXTUX"
-
-[[pair]]
-name = "XLM_ITS"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "ITS"
-# toml = https://itc.taxi/.well-known/stellar.toml
-counter_asset_issuer = "GDYNTLU4SXVDHEZKQ7NQCDUPMJ2WGBGJLGHA3YZNPFHBMN7ZBYBJXTUX"
-
-[[pair]]
-name = "XLM_jayz"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "jayz"
-# toml = https://pr.network/.well-known/stellar.toml
-counter_asset_issuer = "GAZPKDTEZ5UM3BF4E7FL7EMXRMLH76F2TNVXRLOF6SCVXOFWSPCEWFI5"
-
-[[pair]]
-name = "XLM_JBT"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "JBT"
-counter_asset_issuer = "GD2SL6I7EPGD3UBC2ZIMLAER2A37Y36CEBSGMBBD3AKTA2NBWTTYH7YM"
-
-[[pair]]
-name = "XLM_JDT"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "JDT"
-counter_asset_issuer = "GCCFMOXGTAXPMJ4WIMTQMD5GD2RUGBBIDFWB5JQ3IAFGWKF3EOAC65R7"
 
 [[pair]]
 name = "XLM_JPC"
@@ -2147,42 +623,12 @@ counter_asset_code = "JPY"
 counter_asset_issuer = "GBVAOIACNSB7OVUXJYC5UE2D4YK2F7A24T7EE5YOMN4CE6GCHUTOUQXM"
 
 [[pair]]
-name = "XLM_Kava"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "Kava"
-# toml = https://removed/.well-known/stellar.toml
-counter_asset_issuer = "GBU7ZMUTIG2DOBORITS3IQMSPWSA2Y4V7TUIQVHBQS3QJBSNFIXZQO6Y"
-
-[[pair]]
 name = "XLM_KAVA"
 base_asset_code = "XLM"
 base_asset_issuer = "native"
 counter_asset_code = "KAVA"
 # toml = https://kava.world/.well-known/stellar.toml
 counter_asset_issuer = "GD4T35DMXYDE7BJWYPUWK43VFJO5IBUQYG2YGMICPTWP4JTNWQELKAVA"
-
-[[pair]]
-name = "XLM_KEYZ"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "KEYZ"
-counter_asset_issuer = "GDVDSIDVX63LKSUFTO5NQ3YHPDDAYUSEPOJLFXVWCVCLEKMOERGHZ7DR"
-
-[[pair]]
-name = "XLM_KIN"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "KIN"
-counter_asset_issuer = "GAQ4HYZJ5PSYBMHXAX75DKN4YGHFIEGZYBDTGFV7ZHYGQWVGFHOW75CB"
-
-[[pair]]
-name = "XLM_KIN"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "KIN"
-# toml = https://galtbank.com/.well-known/stellar.toml
-counter_asset_issuer = "GBANK7OKSC2AVD6HQM65XRBHBH3F76PYDHJCWLVUDR5JBVWFGLVQMPZA"
 
 [[pair]]
 name = "XLM_KIN"
@@ -2193,20 +639,26 @@ counter_asset_code = "KIN"
 counter_asset_issuer = "GBDEVU63Y6NTHJQQZIKVTC23NWLQVP3WJ2RI2OTSJTNYOIGICST6DUXR"
 
 [[pair]]
-name = "XLM_kkardashian"
+name = "XLM_Korr2"
 base_asset_code = "XLM"
 base_asset_issuer = "native"
-counter_asset_code = "kkardashian"
-# toml = https://pr.network/.well-known/stellar.toml
-counter_asset_issuer = "GAZPKDTEZ5UM3BF4E7FL7EMXRMLH76F2TNVXRLOF6SCVXOFWSPCEWFI5"
+counter_asset_code = "Korr2"
+counter_asset_issuer = "GCJY7SLUJQZVHIMG5DWI63QL2OKSRNUBUJ6T3PRAR4DENU5A3FSA6NGQ"
 
 [[pair]]
-name = "XLM_kkwest"
+name = "XLM_Korr3"
 base_asset_code = "XLM"
 base_asset_issuer = "native"
-counter_asset_code = "kkwest"
-# toml = https://pr.network/.well-known/stellar.toml
-counter_asset_issuer = "GAZPKDTEZ5UM3BF4E7FL7EMXRMLH76F2TNVXRLOF6SCVXOFWSPCEWFI5"
+counter_asset_code = "Korr3"
+counter_asset_issuer = "GABKSCCMHNZX4YMPWBP2TAH6ZNW72UKYRF6UQ57W6FXNXSIJVXFWV3EP"
+
+[[pair]]
+name = "XLM_Korr6"
+base_asset_code = "XLM"
+base_asset_issuer = "native"
+counter_asset_code = "Korr6"
+# toml = https://metadatacore.ravnapp.com/.well-known/stellar.toml
+counter_asset_issuer = "GASAACDJYGMN5OMWIDB33Y3YHHGHV6IWWWZYBLZSLLNWEHXOMYFE474L"
 
 [[pair]]
 name = "XLM_Kred"
@@ -2216,90 +668,12 @@ counter_asset_code = "Kred"
 counter_asset_issuer = "GBDAFOWGOJSRLOQVTDJYJVRAOK3FB74Y53IYCGDD7YNLLKOYSFIFA22M"
 
 [[pair]]
-name = "XLM_KRX"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "KRX"
-# toml = https://ico.ravnapp.com/.well-known/stellar.toml
-counter_asset_issuer = "GBF54YS2WQYYIZHW674JNR2N5EZ7ABWL42VMERLU6Q73DOELKJDKP52B"
-
-[[pair]]
-name = "XLM_KRY"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "KRY"
-counter_asset_issuer = "GBPE4T2SJKPA2NFOILEX2QENTTQ2IN4CLGGQEOINSRDQRQNGB6W6GL3N"
-
-[[pair]]
-name = "XLM_KULT"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "KULT"
-# toml = https://kultcoin.org/.well-known/stellar.toml
-counter_asset_issuer = "GAFM4W6SHP47PD63LVIK47B5NZMTS4XAPTBGCNA3XAER3VNWGI5FSVUT"
-
-[[pair]]
-name = "XLM_kyliejenner"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "kyliejenner"
-# toml = https://pr.network/.well-known/stellar.toml
-counter_asset_issuer = "GAZPKDTEZ5UM3BF4E7FL7EMXRMLH76F2TNVXRLOF6SCVXOFWSPCEWFI5"
-
-[[pair]]
-name = "XLM_ldvinci"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "ldvinci"
-# toml = https://pr.network/.well-known/stellar.toml
-counter_asset_issuer = "GAZPKDTEZ5UM3BF4E7FL7EMXRMLH76F2TNVXRLOF6SCVXOFWSPCEWFI5"
-
-[[pair]]
 name = "XLM_LINK"
 base_asset_code = "XLM"
 base_asset_issuer = "native"
 counter_asset_code = "LINK"
 # toml = https://apay.io/.well-known/stellar.toml
 counter_asset_issuer = "GBDEVU63Y6NTHJQQZIKVTC23NWLQVP3WJ2RI2OTSJTNYOIGICST6DUXR"
-
-[[pair]]
-name = "XLM_LIRB1"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "LIRB1"
-# toml = https://bornideas.com/.well-known/stellar.toml
-counter_asset_issuer = "GCLE3MCTBLXKH64YJFHX7FSDWA3JKQO5LM6MZYBOJIK6LOHWECY3KF3C"
-
-[[pair]]
-name = "XLM_litecoin"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "litecoin"
-# toml = https://pr.network/.well-known/stellar.toml
-counter_asset_issuer = "GAZPKDTEZ5UM3BF4E7FL7EMXRMLH76F2TNVXRLOF6SCVXOFWSPCEWFI5"
-
-[[pair]]
-name = "XLM_LKR"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "LKR"
-# toml = https://tempo.eu.com/.well-known/stellar.toml
-counter_asset_issuer = "GAP5LETOV6YIE62YAM56STDANPRDO7ZFDBGSNHJQIYGGKSMOZAHOOS2S"
-
-[[pair]]
-name = "XLM_LOAN"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "LOAN"
-counter_asset_issuer = "GAWLOWOROQTHJXY7SHOX3KANJAHBTL4S67M5RJP6NPDSPZSASTNAK7DP"
-
-[[pair]]
-name = "XLM_LSA"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "LSA"
-# toml = https://lsa.solutions/.well-known/stellar.toml
-counter_asset_issuer = "GAPRMCACNLMVA4STMLDFMPBT6WWZTW5U5ZL7IPPRL5A5D7Z7ZEXW46QS"
 
 [[pair]]
 name = "XLM_LTC"
@@ -2326,22 +700,6 @@ counter_asset_code = "LTC"
 counter_asset_issuer = "GCNSGHUCG5VMGLT5RIYYZSO7VQULQKAJ62QA33DBC5PPBSO57LFWVV6P"
 
 [[pair]]
-name = "XLM_LTC"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "LTC"
-# toml = https://liquido.i-server.org/.well-known/stellar.toml
-counter_asset_issuer = "GD2RRX6BKVTORZ6RIMBLWFVUOAYOLTS2QFJQUQPXLI3PBHR3TMLQNGZX"
-
-[[pair]]
-name = "XLM_LUD"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "LUD"
-# toml = https://playludum.com/.well-known/stellar.toml
-counter_asset_issuer = "GAHQBJFOZZUUR4ASOOEHUIZZZFJFHQZICERZS6NLFIWFJDE3LL2GXUNO"
-
-[[pair]]
 name = "XLM_Mazda"
 base_asset_code = "XLM"
 base_asset_issuer = "native"
@@ -2350,43 +708,12 @@ counter_asset_code = "Mazda"
 counter_asset_issuer = "GAZPKDTEZ5UM3BF4E7FL7EMXRMLH76F2TNVXRLOF6SCVXOFWSPCEWFI5"
 
 [[pair]]
-name = "XLM_MBK"
+name = "XLM_MIN"
 base_asset_code = "XLM"
 base_asset_issuer = "native"
-counter_asset_code = "MBK"
-# toml = https://mbk.plus/.well-known/stellar.toml
-counter_asset_issuer = "GCIVLR4PTXBUZPCYKNF37ADZEXLDEJI2PY6MOPJA24ZSJ5K4TZDPOQOT"
-
-[[pair]]
-name = "XLM_mBTC"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "mBTC"
-# toml = https://funtracker.site/.well-known/stellar.toml
-counter_asset_issuer = "GBUYUAI75XXWDZEKLY66CFYKQPET5JR4EENXZBUZ3YXZ7DS56Z4OKOFU"
-
-[[pair]]
-name = "XLM_mcdonalds"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "mcdonalds"
-# toml = https://pr.network/.well-known/stellar.toml
-counter_asset_issuer = "GAZPKDTEZ5UM3BF4E7FL7EMXRMLH76F2TNVXRLOF6SCVXOFWSPCEWFI5"
-
-[[pair]]
-name = "XLM_mickjagger"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "mickjagger"
-# toml = https://pr.network/.well-known/stellar.toml
-counter_asset_issuer = "GAZPKDTEZ5UM3BF4E7FL7EMXRMLH76F2TNVXRLOF6SCVXOFWSPCEWFI5"
-
-[[pair]]
-name = "XLM_MINUTE"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "MINUTE"
-counter_asset_issuer = "GCLU3JPHTGA6KTWP77VZ44VJKCYA2K2F7CDLWBYL5KQQ6XC27F44XWGM"
+counter_asset_code = "MIN"
+# toml = https://inmin.it/.well-known/stellar.toml
+counter_asset_issuer = "GCY3Y4TGHIQKFEIHFAZSCYN7LTSACOM2AYYM6O43634DJ44ZVW5L5JE5"
 
 [[pair]]
 name = "XLM_MOBI"
@@ -2403,13 +730,6 @@ base_asset_issuer = "native"
 counter_asset_code = "MOBI"
 # toml = https://mobius.network/.well-known/stellar.toml
 counter_asset_issuer = "GDCIUCGL7VEMMF6VYJOW75KQ5ZCLHAQBRM6EPFTKCRWUYVUOOYQCKC5A"
-
-[[pair]]
-name = "XLM_MONTH"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "MONTH"
-counter_asset_issuer = "GAHOPLW6VEXFCZK4PC3RZHDQIASRA4NM7IUXLBSLNUUZ2CL4F5ITYDLF"
 
 [[pair]]
 name = "XLM_MP"
@@ -2431,22 +751,7 @@ name = "XLM_MXN"
 base_asset_code = "XLM"
 base_asset_issuer = "native"
 counter_asset_code = "MXN"
-counter_asset_issuer = "GBUMQHWIQELILQEQ5YEEHUFR6SRLBNRKWHJ3JX7JBRFONG24FWUDG627"
-
-[[pair]]
-name = "XLM_MXN"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "MXN"
 counter_asset_issuer = "GCFJPFN6XA3E5TE4GMYQOVC2FRHJX7FTXE6JDH4YUATV54HLQIATZASK"
-
-[[pair]]
-name = "XLM_MXRT"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "MXRT"
-# toml = https://martialartscoin.io/.well-known/stellar.toml
-counter_asset_issuer = "GD2YURFWC5LIRLM4CCVZZHCFV6WXO46VOSBBPTJG6MPQN6ANYZZOLQJL"
 
 [[pair]]
 name = "XLM_MYAD"
@@ -2457,50 +762,11 @@ counter_asset_code = "MYAD"
 counter_asset_issuer = "GDSZZ45W3JHKW2HLTSFB3YW6GIME4XAJMPHX2HAKI4UONETEDOQPTEAT"
 
 [[pair]]
-name = "XLM_mzuckerberg"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "mzuckerberg"
-# toml = https://pr.network/.well-known/stellar.toml
-counter_asset_issuer = "GAZPKDTEZ5UM3BF4E7FL7EMXRMLH76F2TNVXRLOF6SCVXOFWSPCEWFI5"
-
-[[pair]]
-name = "XLM_nasa"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "nasa"
-# toml = https://pr.network/.well-known/stellar.toml
-counter_asset_issuer = "GAZPKDTEZ5UM3BF4E7FL7EMXRMLH76F2TNVXRLOF6SCVXOFWSPCEWFI5"
-
-[[pair]]
-name = "XLM_nextpakk"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "nextpakk"
-# toml = https://nextpakk.com/.well-known/stellar.toml
-counter_asset_issuer = "GCPOD7PXK76VYXOOXYV3U6XAOYGQGK5N27H6LVOZNI5EV74H36ALRZWA"
-
-[[pair]]
 name = "XLM_NEZ"
 base_asset_code = "XLM"
 base_asset_issuer = "native"
 counter_asset_code = "NEZ"
 counter_asset_issuer = "GDGKBRCPW4C3ENNC5C64PE6U33MG52GBKFXOK5P3OSWF74DAOXRXV6OJ"
-
-[[pair]]
-name = "XLM_NGN"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "NGN"
-counter_asset_issuer = "GA3TKVAAVRPSOO7YAKCTFA2Z22PJMFT2YWNJLNMTIVLVLEPLE2SZIRXU"
-
-[[pair]]
-name = "XLM_NGN"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "NGN"
-# toml = https://cowrie.exchange/.well-known/stellar.toml
-counter_asset_issuer = "GAWODAROMJ33V5YDFY3NPYTHVYQG7MJXVJ2ND3AOGIHYRWINES6ACCPD"
 
 [[pair]]
 name = "XLM_NGN"
@@ -2534,27 +800,12 @@ counter_asset_code = "OCEAN"
 counter_asset_issuer = "GBK5UTRC5Y26MZ243QEUVXZUICTJWR7K2BY5CTATUR6KNR73GL57MDSZ"
 
 [[pair]]
-name = "XLM_OG"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "OG"
-# toml = https://internet.opengarden.com/.well-known/stellar.toml
-counter_asset_issuer = "GDYVT67HFT2JYL3K23DTCTKBHVEH4MUAG67TALHX57OEXZDQ6BVQZN6Z"
-
-[[pair]]
 name = "XLM_OGR1"
 base_asset_code = "XLM"
 base_asset_issuer = "native"
 counter_asset_code = "OGR1"
 # toml = https://internet.opengarden.com/.well-known/stellar.toml
 counter_asset_issuer = "GBG5ELUMYM6TTZ4FHBRHHMAGQHFZXITDAIVZQNFY5UVGJBCBIQX3PEBT"
-
-[[pair]]
-name = "XLM_OGX"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "OGX"
-counter_asset_issuer = "GDK4KXB25FY57CX3WO6WPQ3HMV5SQO3FQESH67NVYGXY24QKZCSBLTES"
 
 [[pair]]
 name = "XLM_OMG"
@@ -2565,48 +816,12 @@ counter_asset_code = "OMG"
 counter_asset_issuer = "GBDEVU63Y6NTHJQQZIKVTC23NWLQVP3WJ2RI2OTSJTNYOIGICST6DUXR"
 
 [[pair]]
-name = "XLM_opera"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "opera"
-# toml = https://pr.network/.well-known/stellar.toml
-counter_asset_issuer = "GAZPKDTEZ5UM3BF4E7FL7EMXRMLH76F2TNVXRLOF6SCVXOFWSPCEWFI5"
-
-[[pair]]
-name = "XLM_ORPH"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "ORPH"
-counter_asset_issuer = "GDFP3CJHUOOOWOD5IF6G2ZNHNUPURZCKLB35TZPV4C7XNGDAEUBDVKQP"
-
-[[pair]]
-name = "XLM_PAIN"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "PAIN"
-counter_asset_issuer = "GCXZYN3HGZPEZ7W2WG2MZEGCSL3S5UTSEFYT7JVPVMCUWXGZ4NRDIUCO"
-
-[[pair]]
-name = "XLM_PAKKA"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "PAKKA"
-counter_asset_issuer = "GB746V5ACTJOUJCATK3TUDETQEQEVZHR34EAVOAJZWHJZYJS22AAWJU5"
-
-[[pair]]
 name = "XLM_PAKKA"
 base_asset_code = "XLM"
 base_asset_issuer = "native"
 counter_asset_code = "PAKKA"
 # toml = https://nextpakk.com/.well-known/stellar.toml
 counter_asset_issuer = "GCPOD7PXK76VYXOOXYV3U6XAOYGQGK5N27H6LVOZNI5EV74H36ALRZWA"
-
-[[pair]]
-name = "XLM_PASEO"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "PASEO"
-counter_asset_issuer = "GC5FKAM24SHCW4V6JANGLZEVPFTUS5F5FHR4PBO2AF46A5TPGWBBZK6W"
 
 [[pair]]
 name = "XLM_PCT"
@@ -2625,27 +840,12 @@ counter_asset_code = "PEDI"
 counter_asset_issuer = "GBVUDZLMHTLMZANLZB6P4S4RYF52MVWTYVYXTQ2EJBPBX4DZI2SDOLLY"
 
 [[pair]]
-name = "XLM_PGSSC"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "PGSSC"
-counter_asset_issuer = "GDQATJVCYV2XNI2LEQRGRCZ5XH25IB7H3SUY7PVDEVRT3DYAV3DEUGKZ"
-
-[[pair]]
-name = "XLM_philton"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "philton"
-# toml = https://pr.network/.well-known/stellar.toml
-counter_asset_issuer = "GAZPKDTEZ5UM3BF4E7FL7EMXRMLH76F2TNVXRLOF6SCVXOFWSPCEWFI5"
-
-[[pair]]
 name = "XLM_PHP"
 base_asset_code = "XLM"
 base_asset_issuer = "native"
 counter_asset_code = "PHP"
-# toml = https://bloomremit.net/.well-known/stellar.toml
-counter_asset_issuer = "GBE24OT4GKBBQ3FQRYRKZJJAG7SQZPBVYE2ORY6AA46KQEPXTSOO4C6A"
+# toml = https://tagcash.com/.well-known/stellar.toml
+counter_asset_issuer = "GAOFGBVOTX7EU2GXKS4XXIHDSKXXCQGGKNR4I3R6JANQB5HNWGHZRK4O"
 
 [[pair]]
 name = "XLM_PHP"
@@ -2655,81 +855,11 @@ counter_asset_code = "PHP"
 counter_asset_issuer = "GBUQWP3BOUZX34TOND2QV7QQ7K7VJTG6VSE7WMLBTMDJLLAW7YKGU6EP"
 
 [[pair]]
-name = "XLM_PHP"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "PHP"
-counter_asset_issuer = "GCU2MEEKZMHQKK63GI7XENC4K6TEL7CVOTUGHBEBEDMVXAQ7X4W3YXF2"
-
-[[pair]]
-name = "XLM_PHP"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "PHP"
-# toml = https://www.fcx.world/.well-known/stellar.toml
-counter_asset_issuer = "GCYVNKIY7ITFEMNGNABK5LPSMTN5RY3SKFBYJNYONBB6WXCDVXVDBGM4"
-
-[[pair]]
-name = "XLM_PHTN"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "PHTN"
-counter_asset_issuer = "GCYIODUHN3VDUUAAWRT2YTAR3D5H22YGSQVWIVPIO3VTQWR6XOF7TTMA"
-
-[[pair]]
 name = "XLM_PIKA"
 base_asset_code = "XLM"
 base_asset_issuer = "native"
 counter_asset_code = "PIKA"
 counter_asset_issuer = "GBNIXA5YTI3UXCWPPPY7PLZ76QXBWDXNKUT6HX4GSHGBPCNRBSXG4JDG"
-
-[[pair]]
-name = "XLM_PIKA"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "PIKA"
-# toml = https://pikacoin.tk/.well-known/stellar.toml
-counter_asset_issuer = "GBT3C2YIJ7KMDOMZJDMKVRKCWMIADKYIOLCFEEVLZWPQYDCYYTO4COGC"
-
-[[pair]]
-name = "XLM_PLV"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "PLV"
-# toml = https://plivco.io/.well-known/stellar.toml
-counter_asset_issuer = "GAQMPTVHZJXTIVFRPI6RF2VCK3EXRTWSWOADP4R6WTMUTBC3XWWXOJKS"
-
-[[pair]]
-name = "XLM_POC"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "POC"
-# toml = https://mini-games.io/.well-known/stellar.toml
-counter_asset_issuer = "GCSZ3XMJZ33D5DKQP3DYPBY2STYFL6SGYK2SGNEHO6RYVMPB5TDGWIW7"
-
-[[pair]]
-name = "XLM_POINT"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "POINT"
-# toml = https://point.sinaapp.com/.well-known/stellar.toml
-counter_asset_issuer = "GDBY7BMJW6R2WSHGT55FYKA35Z3ROD6WV4JCREX2VBGSDF34DALDES45"
-
-[[pair]]
-name = "XLM_poroshenko"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "poroshenko"
-# toml = https://pr.network/.well-known/stellar.toml
-counter_asset_issuer = "GAZPKDTEZ5UM3BF4E7FL7EMXRMLH76F2TNVXRLOF6SCVXOFWSPCEWFI5"
-
-[[pair]]
-name = "XLM_prnetwork"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "prnetwork"
-# toml = https://pr.network/.well-known/stellar.toml
-counter_asset_issuer = "GAZPKDTEZ5UM3BF4E7FL7EMXRMLH76F2TNVXRLOF6SCVXOFWSPCEWFI5"
 
 [[pair]]
 name = "XLM_PROXI"
@@ -2747,13 +877,6 @@ counter_asset_code = "PTS"
 counter_asset_issuer = "GBPG7KRYC3PTKHBXQGRD3GMZ5DB4C3D553ZN2ZLH57LBAQIULVY46Z5F"
 
 [[pair]]
-name = "XLM_pttw"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "pttw"
-counter_asset_issuer = "GBMS2BM3OI2ZBSW6PMT633VZKSHIQQN2OUEG5M575R2HNJKNINGHXMNW"
-
-[[pair]]
 name = "XLM_PTTW"
 base_asset_code = "XLM"
 base_asset_issuer = "native"
@@ -2761,34 +884,12 @@ counter_asset_code = "PTTW"
 counter_asset_issuer = "GBMS2BM3OI2ZBSW6PMT633VZKSHIQQN2OUEG5M575R2HNJKNINGHXMNW"
 
 [[pair]]
-name = "XLM_R2D2"
+name = "XLM_RAIN"
 base_asset_code = "XLM"
 base_asset_issuer = "native"
-counter_asset_code = "R2D2"
-counter_asset_issuer = "GD7UYAG6PO3VA4HTIIWQ5CC7SP4WSJVOWLDZWKYNRTCFMWDWNUCBF3XT"
-
-[[pair]]
-name = "XLM_raphael"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "raphael"
-# toml = https://pr.network/.well-known/stellar.toml
-counter_asset_issuer = "GAZPKDTEZ5UM3BF4E7FL7EMXRMLH76F2TNVXRLOF6SCVXOFWSPCEWFI5"
-
-[[pair]]
-name = "XLM_RECOIN"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "RECOIN"
-counter_asset_issuer = "GA6XMBZDBOVQO22GEHXCOMXOSXHC77PTY6AWOKBMDRHAAKTRN2CBVGYN"
-
-[[pair]]
-name = "XLM_redbull"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "redbull"
-# toml = https://pr.network/.well-known/stellar.toml
-counter_asset_issuer = "GAZPKDTEZ5UM3BF4E7FL7EMXRMLH76F2TNVXRLOF6SCVXOFWSPCEWFI5"
+counter_asset_code = "RAIN"
+# toml = https://raintoken.org/.well-known/stellar.toml
+counter_asset_issuer = "GAHHO7YFE65ICCSXFNMVOIJYKCHFSIVY3F4S5I4U7JKM2DFZEKJMYSUZ"
 
 [[pair]]
 name = "XLM_REEL"
@@ -2805,14 +906,6 @@ base_asset_issuer = "native"
 counter_asset_code = "REP"
 # toml = https://apay.io/.well-known/stellar.toml
 counter_asset_issuer = "GBDEVU63Y6NTHJQQZIKVTC23NWLQVP3WJ2RI2OTSJTNYOIGICST6DUXR"
-
-[[pair]]
-name = "XLM_repo"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "repo"
-# toml = https://repocoin.io/.well-known/stellar.toml
-counter_asset_issuer = "GCZNF24HPMYTV6NOEHI7Q5RJFFUI23JKUKY3H3XTQAFBQIBOHD5OXG3B"
 
 [[pair]]
 name = "XLM_REPO"
@@ -2834,22 +927,7 @@ name = "XLM_RMB"
 base_asset_code = "XLM"
 base_asset_issuer = "native"
 counter_asset_code = "RMB"
-counter_asset_issuer = "GBMS2BM3OI2ZBSW6PMT633VZKSHIQQN2OUEG5M575R2HNJKNINGHXMNW"
-
-[[pair]]
-name = "XLM_RMB"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "RMB"
 counter_asset_issuer = "GBO4R45YSMLAZFQG2EACQB2IDZ3FPALDN2CZ5H46ZXCO6ZIBUEJP3V2Z"
-
-[[pair]]
-name = "XLM_RMT"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "RMT"
-# toml = https://sureremit.co/.well-known/stellar.toml
-counter_asset_issuer = "GAOVSNO6FD26GP55HLLDWP3LUFUJ657SM25LW7FHGNK7FDKTS7PADVQM"
 
 [[pair]]
 name = "XLM_RMT"
@@ -2867,34 +945,6 @@ counter_asset_code = "RMT"
 counter_asset_issuer = "GDEGOXPCHXWFYY234D2YZSPEJ24BX42ESJNVHY5H7TWWQSYRN5ZKZE3N"
 
 [[pair]]
-name = "XLM_ROY"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "ROY"
-counter_asset_issuer = "GCEUJDM5GWFLL5L36HXQPT3I74UH5NOPEFJC3GC6BJSPR4WMOEJDM6A2"
-
-[[pair]]
-name = "XLM_RTPT"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "RTPT"
-counter_asset_issuer = "GA5O7NTUIKYDPZSV3MNMIRFO2LCV5RJBNO7TNN7Y3MDO2IXRBSWDEO3T"
-
-[[pair]]
-name = "XLM_RUBT"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "RUBT"
-counter_asset_issuer = "GCTJA6MM3K6MRQE2C4GM3EJDXF57X6NZTGPUZ77AB3WJ2FX6GXOWD4NX"
-
-[[pair]]
-name = "XLM_RUBX"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "RUBX"
-counter_asset_issuer = "GDKMRUWJI27667MXS6YEOEHGXNXHC4ORRQMPWCCIGLLOPRF4T3YXLMBD"
-
-[[pair]]
 name = "XLM_RWZ"
 base_asset_code = "XLM"
 base_asset_issuer = "native"
@@ -2910,28 +960,6 @@ counter_asset_code = "SALT"
 counter_asset_issuer = "GBDEVU63Y6NTHJQQZIKVTC23NWLQVP3WJ2RI2OTSJTNYOIGICST6DUXR"
 
 [[pair]]
-name = "XLM_SANT"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "SANT"
-counter_asset_issuer = "GAZL246IMEVSPEEMOE2H2GZMC7RI5L6COHVC2HNI2JF6NLPSKTVHZ3JB"
-
-[[pair]]
-name = "XLM_SDA"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "SDA"
-# toml = https://bitbox.one/.well-known/stellar.toml
-counter_asset_issuer = "GBOXNWGBB7SG3NVIA7O25M7JIRSXQ4KKU3GYARJEFMQXSR3APF3KRI6S"
-
-[[pair]]
-name = "XLM_SECOND"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "SECOND"
-counter_asset_issuer = "GAYZT6ZQCWRSUYUYKTTMX2BACITUQRXZPBXLY7H5PJ4WUNJU6ZET42W5"
-
-[[pair]]
 name = "XLM_SEED"
 base_asset_code = "XLM"
 base_asset_issuer = "native"
@@ -2939,27 +967,12 @@ counter_asset_code = "SEED"
 counter_asset_issuer = "GDPFSEBZO2W4TLWZO7FIMMG3QONHXYVF6LUULI6HUJS6PJLE4TRZEXLF"
 
 [[pair]]
-name = "XLM_selenagomez"
+name = "XLM_SHOP"
 base_asset_code = "XLM"
 base_asset_issuer = "native"
-counter_asset_code = "selenagomez"
-# toml = https://pr.network/.well-known/stellar.toml
-counter_asset_issuer = "GAZPKDTEZ5UM3BF4E7FL7EMXRMLH76F2TNVXRLOF6SCVXOFWSPCEWFI5"
-
-[[pair]]
-name = "XLM_SIDT"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "SIDT"
-# toml = https://shareinternetdata.io/.well-known/stellar.toml
-counter_asset_issuer = "GDHLNVPJIUE7ZJ34MFWPLCJ2CZLQGGNU5DVUEWASDSBUU2GQCOK5HGIG"
-
-[[pair]]
-name = "XLM_SIX"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "SIX"
-counter_asset_issuer = "GDASACOFD3QBFQ23LTVANHIQQAEMO6BFQRFSRLHRD27ZM7MZK4K6GDZN"
+counter_asset_code = "SHOP"
+# toml = https://raintoken.org/.well-known/stellar.toml
+counter_asset_issuer = "GAHHO7YFE65ICCSXFNMVOIJYKCHFSIVY3F4S5I4U7JKM2DFZEKJMYSUZ"
 
 [[pair]]
 name = "XLM_SIX"
@@ -3002,64 +1015,11 @@ counter_asset_code = "SNC"
 counter_asset_issuer = "GDPOR42X2YKWL74CCOLTZKWP4RZYYPN3JBYBJF4QVXHVVRQQNPX34O67"
 
 [[pair]]
-name = "XLM_SNOW"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "SNOW"
-counter_asset_issuer = "GD3WAFBUIV2KWLMWCCDGO77YHP2VGG7YKO4WT3SDYUMIF455RV7GOSGU"
-
-[[pair]]
-name = "XLM_SOCB"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "SOCB"
-# toml = https://socialbuzz.space/.well-known/stellar.toml
-counter_asset_issuer = "GBUZZT7RB6NU5HUKQ44G4FYD5VLPQUE7NN2Q4AGBMNOLJ44YXUHMWUIZ"
-
-[[pair]]
-name = "XLM_SOCIALTOKEN"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "SOCIALTOKEN"
-counter_asset_issuer = "GB4G2FFG7AGKZWGRCB4OFQ5RZBDBCYB3ODS7B6SS6A553RUFHNWHY7JY"
-
-[[pair]]
-name = "XLM_SOCIALTOKEN"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "SOCIALTOKEN"
-# toml = https://socialtoken.tech/.well-known/stellar.toml
-counter_asset_issuer = "GDWYG72LTE2XQEJZS3WHB7YOZUKYGG2Z6U2YVRSGPZA7MTUPSUYMWJFF"
-
-[[pair]]
-name = "XLM_STAT"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "STAT"
-# toml = https://statisticbrain.org/.well-known/stellar.toml
-counter_asset_issuer = "GCKRYP5O55ZMS7N2UEHAM4EKPLCXMWL72JUB6XYNER5B2EOZWIME5ET2"
-
-[[pair]]
 name = "XLM_STEM"
 base_asset_code = "XLM"
 base_asset_issuer = "native"
 counter_asset_code = "STEM"
 counter_asset_issuer = "GAFXX2VJE2EGLLY3EFA2BQXJADAZTNR7NC7IJ6LFYPSCLE7AI3AK3B3M"
-
-[[pair]]
-name = "XLM_stemspaarc19"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "stemspaarc19"
-counter_asset_issuer = "GBAOHFUZLAIWEYVQD3CHBZL4I5GB7CY7KOSRBW5JLRMVPHGTOUZXJC2P"
-
-[[pair]]
-name = "XLM_stevejobs"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "stevejobs"
-# toml = https://pr.network/.well-known/stellar.toml
-counter_asset_issuer = "GAZPKDTEZ5UM3BF4E7FL7EMXRMLH76F2TNVXRLOF6SCVXOFWSPCEWFI5"
 
 [[pair]]
 name = "XLM_STM"
@@ -3068,43 +1028,6 @@ base_asset_issuer = "native"
 counter_asset_code = "STM"
 # toml = https://fchain.io/.well-known/stellar.toml
 counter_asset_issuer = "GCMS2VO5ANJCESJBZVC3INFSETS3K4UWMU47W7KSQ2BYASEQAN4NUSTM"
-
-[[pair]]
-name = "XLM_stockserie18"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "stockserie18"
-counter_asset_issuer = "GAJG4ICUXJPALQ2PBO3HDKMK3SEG3WJIZW5WKFTUQRULR6EVA4NCOERQ"
-
-[[pair]]
-name = "XLM_sudokoin"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "sudokoin"
-counter_asset_issuer = "GCNCTSFG2HCFUBD4ZYIHRNK5SDMHSAP2KGIP27UJMVXDKWYB4JDTPWD3"
-
-[[pair]]
-name = "XLM_SWAG"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "SWAG"
-counter_asset_issuer = "GBI7YEVVAM2RQPXKZWJ4NDENCCW5OXMELCWO7ZPZKIRHKZUUAQ2SE67B"
-
-[[pair]]
-name = "XLM_TAG"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "TAG"
-# toml = https://tagcash.com/.well-known/stellar.toml
-counter_asset_issuer = "GDF75JL7X2XEQL5K743XKNU74CHGAVMZP666BANSC67IHFMAHTC6TEVP"
-
-[[pair]]
-name = "XLM_TAP"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "TAP"
-# toml = https://stupidanduselessgesture.com/.well-known/stellar.toml
-counter_asset_issuer = "GB3CBZJBV65ENAAS6FWKDUMFJOPDVMMP5OZOJEK7BV2R5HQHAHJTXJQL"
 
 [[pair]]
 name = "XLM_TARI"
@@ -3123,48 +1046,12 @@ counter_asset_code = "TAU"
 counter_asset_issuer = "GBETHKBL5TCUTQ3JPDIYOZ5RDARTMHMEKIO2QZQ7IOZ4YC5XV3C2IKYU"
 
 [[pair]]
-name = "XLM_TCKT"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "TCKT"
-counter_asset_issuer = "GAKYYYDA6DY32LPC5EPU6M525TVCA6KJCWFJFIUPH74UPQ7UR2OKVXNM"
-
-[[pair]]
-name = "XLM_te85"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "te85"
-counter_asset_issuer = "GCLKTCRAT3UA34YD5TH3XYUAVCD5MTLKJBSCGNEF4W36HNIXPINDEEL6"
-
-[[pair]]
-name = "XLM_te89"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "te89"
-counter_asset_issuer = "GDTKVA4EOZVH2ALYUS26LD7BJRP3FJY5UIA56EYQUIMQJZ352QDJCKAL"
-
-[[pair]]
-name = "XLM_TE90"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "TE90"
-counter_asset_issuer = "GA5ZTUKP6NWPAW4DTKF27N3EKA7EBQCECYBMHA57DONDCVEDQGMMIDRP"
-
-[[pair]]
 name = "XLM_TELLUS"
 base_asset_code = "XLM"
 base_asset_issuer = "native"
 counter_asset_code = "TELLUS"
 # toml = https://irene.energy/.well-known/stellar.toml
 counter_asset_issuer = "GBBRMEXJMS3L7Y3DZZ2AHBD545GZ72OAEHHEFKGZAHHASHGWMHK5P6PL"
-
-[[pair]]
-name = "XLM_TEMPO"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "TEMPO"
-# toml = https://tempo.eu.com/.well-known/stellar.toml
-counter_asset_issuer = "GAP5LETOV6YIE62YAM56STDANPRDO7ZFDBGSNHJQIYGGKSMOZAHOOS2S"
 
 [[pair]]
 name = "XLM_TERN"
@@ -3183,58 +1070,18 @@ counter_asset_code = "TFC"
 counter_asset_issuer = "GDS3XDJAA4VY6MJYASIGSIMPHZ7AQNZ54RKLWT7MWCOU5YKYEVCNLVS3"
 
 [[pair]]
-name = "XLM_THB"
+name = "XLM_TO10"
 base_asset_code = "XLM"
 base_asset_issuer = "native"
-counter_asset_code = "THB"
-# toml = https://funtracker.site/.well-known/stellar.toml
-counter_asset_issuer = "GBUYUAI75XXWDZEKLY66CFYKQPET5JR4EENXZBUZ3YXZ7DS56Z4OKOFU"
+counter_asset_code = "TO10"
+counter_asset_issuer = "GAL35HVVZLFI6IRWPOYF63UWXM7V4C5DOFU3PQZL265DRGKTMASIVOEN"
 
 [[pair]]
-name = "XLM_TICS"
+name = "XLM_TOK9"
 base_asset_code = "XLM"
 base_asset_issuer = "native"
-counter_asset_code = "TICS"
-counter_asset_issuer = "GABX5IDQYS6FJGBL62FWISUD37PVESD7V32QVIZY3VATY3NOLS6KFG6T"
-
-[[pair]]
-name = "XLM_TIL"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "TIL"
-# toml = https://dotkam.com/.well-known/stellar.toml
-counter_asset_issuer = "GBKOPETTWWVE7DM72YOVQ4M2UIY3JCKDYQBTSNLGLHI6L43K7XPDROID"
-
-[[pair]]
-name = "XLM_TKM"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "TKM"
-# toml = https://www.freight-coin.com/.well-known/stellar.toml
-counter_asset_issuer = "GBUAVXCI7JKH6D2ZHZ6KZ7Z5MHHCXHI4DSUUC4KOISDMRPVY3MRBF3OY"
-
-[[pair]]
-name = "XLM_tmobile"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "tmobile"
-# toml = https://pr.network/.well-known/stellar.toml
-counter_asset_issuer = "GAZPKDTEZ5UM3BF4E7FL7EMXRMLH76F2TNVXRLOF6SCVXOFWSPCEWFI5"
-
-[[pair]]
-name = "XLM_TNcoin"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "TNcoin"
-# toml = https://tncoin.io/.well-known/stellar.toml
-counter_asset_issuer = "GDLIPLLZ7DLIJIN6ZZM2YQWR7HXN42OMU2PXDMST6QK4XK6CPXO3VECP"
-
-[[pair]]
-name = "XLM_TO12"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "TO12"
-counter_asset_issuer = "GCOFYFFTJT3CFCPIDYOFWEMDCC2KCWB3EDDIGLL4SPZP7Y6KKTJ4PUUZ"
+counter_asset_code = "TOK9"
+counter_asset_issuer = "GAWE27LPOZKWMUURJKFQYNMHVBFZMIH43UH4Z4S75PB7UUNG5XZMNQLN"
 
 [[pair]]
 name = "XLM_tomhanks"
@@ -3253,29 +1100,6 @@ counter_asset_code = "TON"
 counter_asset_issuer = "GBFJGO46OV6E2QS2ZUMCF256ZL4BFOZWFHULRNLPSPW47HH5HFAKJTON"
 
 [[pair]]
-name = "XLM_TREX"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "TREX"
-# toml = https://trexcrypto.com/.well-known/stellar.toml
-counter_asset_issuer = "GDNYACBMDAPBZDRRUHS6FVY2DCIDLCXJIEUGUN3LCJOPT6RKCQQIGIL2"
-
-[[pair]]
-name = "XLM_TRX"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "TRX"
-counter_asset_issuer = "GD5HPSZN3QSQSL7ZPEAMBHJR7FA4ULGQQ2EHWN6QVMI5DW2OI7U6MESJ"
-
-[[pair]]
-name = "XLM_uber"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "uber"
-# toml = https://pr.network/.well-known/stellar.toml
-counter_asset_issuer = "GAZPKDTEZ5UM3BF4E7FL7EMXRMLH76F2TNVXRLOF6SCVXOFWSPCEWFI5"
-
-[[pair]]
 name = "XLM_USD"
 base_asset_code = "XLM"
 base_asset_issuer = "native"
@@ -3288,15 +1112,14 @@ base_asset_code = "XLM"
 base_asset_issuer = "native"
 counter_asset_code = "USD"
 # toml = https://stronghold.co/.well-known/stellar.toml
-counter_asset_issuer = "GBSTRH4QOTWNSVA6E4HFERETX4ZLSR3CIUBLK7AXYII277PFJC4BBYOG"
+counter_asset_issuer = "GBSTRUSD7IRX73RQZBL3RQUH6KS3O4NYFY3QCALDLZD77XMZOPWAVTUK"
 
 [[pair]]
 name = "XLM_USD"
 base_asset_code = "XLM"
 base_asset_issuer = "native"
 counter_asset_code = "USD"
-# toml = https://funtracker.site/.well-known/stellar.toml
-counter_asset_issuer = "GBUYUAI75XXWDZEKLY66CFYKQPET5JR4EENXZBUZ3YXZ7DS56Z4OKOFU"
+counter_asset_issuer = "GCO7FSRST234N46BUTIXZQDBPZ55JE2BFYH4DYKFS2EEDYKD4VUQAZK4"
 
 [[pair]]
 name = "XLM_USD"
@@ -3310,15 +1133,8 @@ name = "XLM_USD"
 base_asset_code = "XLM"
 base_asset_issuer = "native"
 counter_asset_code = "USD"
-counter_asset_issuer = "GD5HPSZN3QSQSL7ZPEAMBHJR7FA4ULGQQ2EHWN6QVMI5DW2OI7U6MESJ"
-
-[[pair]]
-name = "XLM_USD"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "USD"
-# toml = https://www.anchorusd.com/.well-known/stellar.toml
-counter_asset_issuer = "GDUKMGUGDZQK6YHYA5Z6AY2G4XDSZPSZ3SW5UN3ARVMO6QSRDWP5YLEX"
+# toml = https://stellar.transferto.com/.well-known/stellar.toml
+counter_asset_issuer = "GDG3DFFU5X6HG4ABXTI52565UTANQSLIARCJ73IISGKYRMGKZOTMTT2I"
 
 [[pair]]
 name = "XLM_USDT"
@@ -3329,42 +1145,12 @@ counter_asset_code = "USDT"
 counter_asset_issuer = "GBOXNWGBB7SG3NVIA7O25M7JIRSXQ4KKU3GYARJEFMQXSR3APF3KRI6S"
 
 [[pair]]
-name = "XLM_USDT"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "USDT"
-counter_asset_issuer = "GCQTGZQQ5G4PTM2GL7CDIFKUBIPEC52BROAQIAPW53XBRJVN6ZJVTG6V"
-
-[[pair]]
-name = "XLM_USDT"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "USDT"
-# toml = https://liquido.i-server.org/.well-known/stellar.toml
-counter_asset_issuer = "GD2RRX6BKVTORZ6RIMBLWFVUOAYOLTS2QFJQUQPXLI3PBHR3TMLQNGZX"
-
-[[pair]]
-name = "XLM_USDT"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "USDT"
-counter_asset_issuer = "GDRF73C4UUGVCUKF3EHA7ZVHBQ63DQ4NOSBLSKQA4YQNQV4NFWN6PXA2"
-
-[[pair]]
 name = "XLM_VIET"
 base_asset_code = "XLM"
 base_asset_issuer = "native"
 counter_asset_code = "VIET"
 # toml = https://bitnam.io/.well-known/stellar.toml
 counter_asset_issuer = "GABS46VS3WHFGSZFL6Q3QCYA6KGFVR6F2LRAAZN26UQ5R37TISBLJIBX"
-
-[[pair]]
-name = "XLM_visainc"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "visainc"
-# toml = https://pr.network/.well-known/stellar.toml
-counter_asset_issuer = "GAZPKDTEZ5UM3BF4E7FL7EMXRMLH76F2TNVXRLOF6SCVXOFWSPCEWFI5"
 
 [[pair]]
 name = "XLM_VNT"
@@ -3397,34 +1183,12 @@ counter_asset_code = "vputin"
 counter_asset_issuer = "GAZPKDTEZ5UM3BF4E7FL7EMXRMLH76F2TNVXRLOF6SCVXOFWSPCEWFI5"
 
 [[pair]]
-name = "XLM_WaifuCoin"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "WaifuCoin"
-counter_asset_issuer = "GCPQ7G6VL22EKO6HGT2R3V5WVCUTCVKZIKI73XCGBALRURJ33SE2FGT4"
-
-[[pair]]
 name = "XLM_WBY"
 base_asset_code = "XLM"
 base_asset_issuer = "native"
 counter_asset_code = "WBY"
 # toml = https://wby.io/.well-known/stellar.toml
 counter_asset_issuer = "GBLMHM6CTZVIMOB7I2BZGVOSWCNPZJQLYQDGRUDJRXZADGOUHNKGSJAJ"
-
-[[pair]]
-name = "XLM_WEEK"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "WEEK"
-counter_asset_issuer = "GAKMD63LOOLWXNJOQPIZ6IF2MW3ABHT2N6RE4H3ECU57JQMUGDIBP5X2"
-
-[[pair]]
-name = "XLM_WGP"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "WGP"
-# toml = https://https://wpay.sg/.well-known/stellar.toml
-counter_asset_issuer = "GAPQX74ZQZEDEV2OYOLTZQGV73DQPLAZBCBP5OKRFKUHZ64ZPBNEJF6A"
 
 [[pair]]
 name = "XLM_WICC"
@@ -3435,14 +1199,6 @@ counter_asset_code = "WICC"
 counter_asset_issuer = "GACKZW62KSR37PEVRN6RUO2GKRONUZ5OHDUAEXJ3HFF3UN4RGDFEIIUU"
 
 [[pair]]
-name = "XLM_wikileaks"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "wikileaks"
-# toml = https://pr.network/.well-known/stellar.toml
-counter_asset_issuer = "GAZPKDTEZ5UM3BF4E7FL7EMXRMLH76F2TNVXRLOF6SCVXOFWSPCEWFI5"
-
-[[pair]]
 name = "XLM_WIN"
 base_asset_code = "XLM"
 base_asset_issuer = "native"
@@ -3451,12 +1207,20 @@ counter_asset_code = "WIN"
 counter_asset_issuer = "GCNHYZLBCSVZHSQJ2DOIBHYBF4J24DJYGS5QKURX4AGSLBK6SDJOYWIN"
 
 [[pair]]
-name = "XLM_WJT"
+name = "XLM_WM2018ARG"
 base_asset_code = "XLM"
 base_asset_issuer = "native"
-counter_asset_code = "WJT"
-# toml = https://wijjit.com/.well-known/stellar.toml
-counter_asset_issuer = "GDL64HVNPZ2FSP3MWHTOMY4EGSLV3EX5BPJKRYGTDK4XNZTIMUXBMJCT"
+counter_asset_code = "WM2018ARG"
+# toml = https://wm2018.maesi.ch/.well-known/stellar.toml
+counter_asset_issuer = "GCANGD4VVGHRH3ESLDJAITY4PMFNEV5LWXIPJ3C4DTUABZUGE3C7IQCC"
+
+[[pair]]
+name = "XLM_WM2018AUS"
+base_asset_code = "XLM"
+base_asset_issuer = "native"
+counter_asset_code = "WM2018AUS"
+# toml = https://wm2018.maesi.ch/.well-known/stellar.toml
+counter_asset_issuer = "GCANGD4VVGHRH3ESLDJAITY4PMFNEV5LWXIPJ3C4DTUABZUGE3C7IQCC"
 
 [[pair]]
 name = "XLM_WM2018BEL"
@@ -3475,10 +1239,42 @@ counter_asset_code = "WM2018BRA"
 counter_asset_issuer = "GCANGD4VVGHRH3ESLDJAITY4PMFNEV5LWXIPJ3C4DTUABZUGE3C7IQCC"
 
 [[pair]]
+name = "XLM_WM2018COL"
+base_asset_code = "XLM"
+base_asset_issuer = "native"
+counter_asset_code = "WM2018COL"
+# toml = https://wm2018.maesi.ch/.well-known/stellar.toml
+counter_asset_issuer = "GCANGD4VVGHRH3ESLDJAITY4PMFNEV5LWXIPJ3C4DTUABZUGE3C7IQCC"
+
+[[pair]]
+name = "XLM_WM2018CRC"
+base_asset_code = "XLM"
+base_asset_issuer = "native"
+counter_asset_code = "WM2018CRC"
+# toml = https://wm2018.maesi.ch/.well-known/stellar.toml
+counter_asset_issuer = "GCANGD4VVGHRH3ESLDJAITY4PMFNEV5LWXIPJ3C4DTUABZUGE3C7IQCC"
+
+[[pair]]
 name = "XLM_WM2018CRO"
 base_asset_code = "XLM"
 base_asset_issuer = "native"
 counter_asset_code = "WM2018CRO"
+# toml = https://wm2018.maesi.ch/.well-known/stellar.toml
+counter_asset_issuer = "GCANGD4VVGHRH3ESLDJAITY4PMFNEV5LWXIPJ3C4DTUABZUGE3C7IQCC"
+
+[[pair]]
+name = "XLM_WM2018DEN"
+base_asset_code = "XLM"
+base_asset_issuer = "native"
+counter_asset_code = "WM2018DEN"
+# toml = https://wm2018.maesi.ch/.well-known/stellar.toml
+counter_asset_issuer = "GCANGD4VVGHRH3ESLDJAITY4PMFNEV5LWXIPJ3C4DTUABZUGE3C7IQCC"
+
+[[pair]]
+name = "XLM_WM2018EGY"
+base_asset_code = "XLM"
+base_asset_issuer = "native"
+counter_asset_code = "WM2018EGY"
 # toml = https://wm2018.maesi.ch/.well-known/stellar.toml
 counter_asset_issuer = "GCANGD4VVGHRH3ESLDJAITY4PMFNEV5LWXIPJ3C4DTUABZUGE3C7IQCC"
 
@@ -3515,6 +1311,94 @@ counter_asset_code = "WM2018GER"
 counter_asset_issuer = "GCANGD4VVGHRH3ESLDJAITY4PMFNEV5LWXIPJ3C4DTUABZUGE3C7IQCC"
 
 [[pair]]
+name = "XLM_WM2018IRN"
+base_asset_code = "XLM"
+base_asset_issuer = "native"
+counter_asset_code = "WM2018IRN"
+# toml = https://wm2018.maesi.ch/.well-known/stellar.toml
+counter_asset_issuer = "GCANGD4VVGHRH3ESLDJAITY4PMFNEV5LWXIPJ3C4DTUABZUGE3C7IQCC"
+
+[[pair]]
+name = "XLM_WM2018ISL"
+base_asset_code = "XLM"
+base_asset_issuer = "native"
+counter_asset_code = "WM2018ISL"
+# toml = https://wm2018.maesi.ch/.well-known/stellar.toml
+counter_asset_issuer = "GCANGD4VVGHRH3ESLDJAITY4PMFNEV5LWXIPJ3C4DTUABZUGE3C7IQCC"
+
+[[pair]]
+name = "XLM_WM2018JPN"
+base_asset_code = "XLM"
+base_asset_issuer = "native"
+counter_asset_code = "WM2018JPN"
+# toml = https://wm2018.maesi.ch/.well-known/stellar.toml
+counter_asset_issuer = "GCANGD4VVGHRH3ESLDJAITY4PMFNEV5LWXIPJ3C4DTUABZUGE3C7IQCC"
+
+[[pair]]
+name = "XLM_WM2018KOR"
+base_asset_code = "XLM"
+base_asset_issuer = "native"
+counter_asset_code = "WM2018KOR"
+# toml = https://wm2018.maesi.ch/.well-known/stellar.toml
+counter_asset_issuer = "GCANGD4VVGHRH3ESLDJAITY4PMFNEV5LWXIPJ3C4DTUABZUGE3C7IQCC"
+
+[[pair]]
+name = "XLM_WM2018KSA"
+base_asset_code = "XLM"
+base_asset_issuer = "native"
+counter_asset_code = "WM2018KSA"
+# toml = https://wm2018.maesi.ch/.well-known/stellar.toml
+counter_asset_issuer = "GCANGD4VVGHRH3ESLDJAITY4PMFNEV5LWXIPJ3C4DTUABZUGE3C7IQCC"
+
+[[pair]]
+name = "XLM_WM2018MAR"
+base_asset_code = "XLM"
+base_asset_issuer = "native"
+counter_asset_code = "WM2018MAR"
+# toml = https://wm2018.maesi.ch/.well-known/stellar.toml
+counter_asset_issuer = "GCANGD4VVGHRH3ESLDJAITY4PMFNEV5LWXIPJ3C4DTUABZUGE3C7IQCC"
+
+[[pair]]
+name = "XLM_WM2018MEX"
+base_asset_code = "XLM"
+base_asset_issuer = "native"
+counter_asset_code = "WM2018MEX"
+# toml = https://wm2018.maesi.ch/.well-known/stellar.toml
+counter_asset_issuer = "GCANGD4VVGHRH3ESLDJAITY4PMFNEV5LWXIPJ3C4DTUABZUGE3C7IQCC"
+
+[[pair]]
+name = "XLM_WM2018NGA"
+base_asset_code = "XLM"
+base_asset_issuer = "native"
+counter_asset_code = "WM2018NGA"
+# toml = https://wm2018.maesi.ch/.well-known/stellar.toml
+counter_asset_issuer = "GCANGD4VVGHRH3ESLDJAITY4PMFNEV5LWXIPJ3C4DTUABZUGE3C7IQCC"
+
+[[pair]]
+name = "XLM_WM2018PAN"
+base_asset_code = "XLM"
+base_asset_issuer = "native"
+counter_asset_code = "WM2018PAN"
+# toml = https://wm2018.maesi.ch/.well-known/stellar.toml
+counter_asset_issuer = "GCANGD4VVGHRH3ESLDJAITY4PMFNEV5LWXIPJ3C4DTUABZUGE3C7IQCC"
+
+[[pair]]
+name = "XLM_WM2018PER"
+base_asset_code = "XLM"
+base_asset_issuer = "native"
+counter_asset_code = "WM2018PER"
+# toml = https://wm2018.maesi.ch/.well-known/stellar.toml
+counter_asset_issuer = "GCANGD4VVGHRH3ESLDJAITY4PMFNEV5LWXIPJ3C4DTUABZUGE3C7IQCC"
+
+[[pair]]
+name = "XLM_WM2018POL"
+base_asset_code = "XLM"
+base_asset_issuer = "native"
+counter_asset_code = "WM2018POL"
+# toml = https://wm2018.maesi.ch/.well-known/stellar.toml
+counter_asset_issuer = "GCANGD4VVGHRH3ESLDJAITY4PMFNEV5LWXIPJ3C4DTUABZUGE3C7IQCC"
+
+[[pair]]
 name = "XLM_WM2018POR"
 base_asset_code = "XLM"
 base_asset_issuer = "native"
@@ -3523,10 +1407,50 @@ counter_asset_code = "WM2018POR"
 counter_asset_issuer = "GCANGD4VVGHRH3ESLDJAITY4PMFNEV5LWXIPJ3C4DTUABZUGE3C7IQCC"
 
 [[pair]]
+name = "XLM_WM2018RUS"
+base_asset_code = "XLM"
+base_asset_issuer = "native"
+counter_asset_code = "WM2018RUS"
+# toml = https://wm2018.maesi.ch/.well-known/stellar.toml
+counter_asset_issuer = "GCANGD4VVGHRH3ESLDJAITY4PMFNEV5LWXIPJ3C4DTUABZUGE3C7IQCC"
+
+[[pair]]
+name = "XLM_WM2018SEN"
+base_asset_code = "XLM"
+base_asset_issuer = "native"
+counter_asset_code = "WM2018SEN"
+# toml = https://wm2018.maesi.ch/.well-known/stellar.toml
+counter_asset_issuer = "GCANGD4VVGHRH3ESLDJAITY4PMFNEV5LWXIPJ3C4DTUABZUGE3C7IQCC"
+
+[[pair]]
+name = "XLM_WM2018SRB"
+base_asset_code = "XLM"
+base_asset_issuer = "native"
+counter_asset_code = "WM2018SRB"
+# toml = https://wm2018.maesi.ch/.well-known/stellar.toml
+counter_asset_issuer = "GCANGD4VVGHRH3ESLDJAITY4PMFNEV5LWXIPJ3C4DTUABZUGE3C7IQCC"
+
+[[pair]]
 name = "XLM_WM2018SUI"
 base_asset_code = "XLM"
 base_asset_issuer = "native"
 counter_asset_code = "WM2018SUI"
+# toml = https://wm2018.maesi.ch/.well-known/stellar.toml
+counter_asset_issuer = "GCANGD4VVGHRH3ESLDJAITY4PMFNEV5LWXIPJ3C4DTUABZUGE3C7IQCC"
+
+[[pair]]
+name = "XLM_WM2018SWE"
+base_asset_code = "XLM"
+base_asset_issuer = "native"
+counter_asset_code = "WM2018SWE"
+# toml = https://wm2018.maesi.ch/.well-known/stellar.toml
+counter_asset_issuer = "GCANGD4VVGHRH3ESLDJAITY4PMFNEV5LWXIPJ3C4DTUABZUGE3C7IQCC"
+
+[[pair]]
+name = "XLM_WM2018TUN"
+base_asset_code = "XLM"
+base_asset_issuer = "native"
+counter_asset_code = "WM2018TUN"
 # toml = https://wm2018.maesi.ch/.well-known/stellar.toml
 counter_asset_issuer = "GCANGD4VVGHRH3ESLDJAITY4PMFNEV5LWXIPJ3C4DTUABZUGE3C7IQCC"
 
@@ -3546,13 +1470,6 @@ counter_asset_code = "WOOLF"
 counter_asset_issuer = "GBRH4SJER4R7MXH5GYSE3WXKPMS53CQ22TVA7X64SDDWKABOPRN6JMP4"
 
 [[pair]]
-name = "XLM_WSD2"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "WSD2"
-counter_asset_issuer = "GCGCGRAR3QEM52PKF6LMJPFZLMA66PHPZDUDBZE3HCUKWGL6N5W4NHN7"
-
-[[pair]]
 name = "XLM_WSD"
 base_asset_code = "XLM"
 base_asset_issuer = "native"
@@ -3567,14 +1484,6 @@ base_asset_issuer = "native"
 counter_asset_code = "XA9"
 # toml = https://astral9.io/.well-known/stellar.toml
 counter_asset_issuer = "GAUWES2POH347NNJGRI4OBM34LMOCMWSTZ3RAOZMOBH4PFVBWFMHLNTC"
-
-[[pair]]
-name = "XLM_XAF"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "XAF"
-# toml = https://tempo.eu.com/.well-known/stellar.toml
-counter_asset_issuer = "GAP5LETOV6YIE62YAM56STDANPRDO7ZFDBGSNHJQIYGGKSMOZAHOOS2S"
 
 [[pair]]
 name = "XLM_XCLP"
@@ -3609,26 +1518,12 @@ counter_asset_code = "XEL"
 counter_asset_issuer = "GAXELY4AOIRVONF7V25BUPDNKZYIVT6CWURG7R2I6NQU26IQSQODBVCS"
 
 [[pair]]
-name = "XLM_XFB"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "XFB"
-counter_asset_issuer = "GA4DCAKMP5W4OJW3ZOQEP2HQZXGNEUSJF2IRIBBYD5G544B3K4QJU3HT"
-
-[[pair]]
 name = "XLM_XFF"
 base_asset_code = "XLM"
 base_asset_issuer = "native"
 counter_asset_code = "XFF"
 # toml = https://fchain.io/.well-known/stellar.toml
 counter_asset_issuer = "GAZEX2USUBMMWFRZFS77VDJYXUFLXI4ZGFPWX6TBNZCSTEQWNLFZMXFF"
-
-[[pair]]
-name = "XLM_XFF"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "XFF"
-counter_asset_issuer = "GCFQZFADLVYSDZCNM6YDVATO7SIV3KMZX7QWND4SVMWM44WPPUPN5ZAQ"
 
 [[pair]]
 name = "XLM_XIMG"
@@ -3647,42 +1542,11 @@ counter_asset_code = "XIR"
 counter_asset_issuer = "GAO4DADCRAHA35GD6J3KUNOB5ELZE5D6CGPSJX2WBMEQV7R2M4PGKJL5"
 
 [[pair]]
-name = "XLM_XJC"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "XJC"
-# toml = https://saza.io/.well-known/stellar.toml
-counter_asset_issuer = "GDHY4K72OFZTGKYUNJKUAVXQGBVQUB4EDOQSTM5PH6VA3MVYE4JZ4RE4"
-
-[[pair]]
-name = "XLM_xjs"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "xjs"
-counter_asset_issuer = "GBWGZMEUJXW5XR732JVBFDUW5RRR6OCTSAAYINGXLLNFS25AQNFIATJH"
-
-[[pair]]
 name = "XLM_XJS"
 base_asset_code = "XLM"
 base_asset_issuer = "native"
 counter_asset_code = "XJS"
 counter_asset_issuer = "GBWGZMEUJXW5XR732JVBFDUW5RRR6OCTSAAYINGXLLNFS25AQNFIATJH"
-
-[[pair]]
-name = "XLM_XLM"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "XLM"
-# toml = https://gratz.io/.well-known/stellar.toml
-counter_asset_issuer = "GAJ7V3EMD3FRWAPBEJAP7EC4223XI5EACDZ46RFMY5DYOMCIMWEFR5II"
-
-[[pair]]
-name = "XLM_XLM"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "XLM"
-# toml = https://stronghold.co/.well-known/stellar.toml
-counter_asset_issuer = "GBSTRH4QOTWNSVA6E4HFERETX4ZLSR3CIUBLK7AXYII277PFJC4BBYOG"
 
 [[pair]]
 name = "XLM_XLQ"
@@ -3701,29 +1565,6 @@ counter_asset_code = "XLS"
 counter_asset_issuer = "GB554NZE4RW4Z32FFFYWQLEQ4CY45KQK4XF5MDBSALZW62WFAUQ6RIVC"
 
 [[pair]]
-name = "XLM_XLS"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "XLS"
-counter_asset_issuer = "GBRMIIKL5UHRFEX4CYB6X6WNMZWZ2KZOXZCUP7EAMXUGBQ5DYK4YX52Q"
-
-[[pair]]
-name = "XLM_XOF"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "XOF"
-# toml = https://tempo.eu.com/.well-known/stellar.toml
-counter_asset_issuer = "GAP5LETOV6YIE62YAM56STDANPRDO7ZFDBGSNHJQIYGGKSMOZAHOOS2S"
-
-[[pair]]
-name = "XLM_XPORT"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "XPORT"
-# toml = https://xportcoin.com/.well-known/stellar.toml
-counter_asset_issuer = "GCC4HAL7SOR7AZBF53SUTVAJT4OHYLBHOUJMM3IAF5YLFF7OVVAWLVFT"
-
-[[pair]]
 name = "XLM_XPR"
 base_asset_code = "XLM"
 base_asset_issuer = "native"
@@ -3738,22 +1579,6 @@ base_asset_issuer = "native"
 counter_asset_code = "XRP"
 # toml = https://vcbear.net/.well-known/stellar.toml
 counter_asset_issuer = "GA7FCCMTTSUIC37PODEL6EOOSPDRILP6OQI5FWCWDDVDBLJV72W6RINZ"
-
-[[pair]]
-name = "XLM_XRP"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "XRP"
-# toml = https://ripplefox.com/.well-known/stellar.toml
-counter_asset_issuer = "GAREELUB43IRHWEASCFBLKHURCGMHE5IF6XSE7EXDLACYHGRHM43RFOX"
-
-[[pair]]
-name = "XLM_XRP"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "XRP"
-# toml = https://bitbox.one/.well-known/stellar.toml
-counter_asset_issuer = "GBOXNWGBB7SG3NVIA7O25M7JIRSXQ4KKU3GYARJEFMQXSR3APF3KRI6S"
 
 [[pair]]
 name = "XLM_XRP"
@@ -3792,14 +1617,6 @@ name = "XLM_XTC"
 base_asset_code = "XLM"
 base_asset_issuer = "native"
 counter_asset_code = "XTC"
-# toml = https://holo.host/.well-known/stellar.toml
-counter_asset_issuer = "GAK3FZ2NC3SVA3JAADWTU63VXRKGR5BLKU3MUOCYTBPOII42N6OKVHRQ"
-
-[[pair]]
-name = "XLM_XTC"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "XTC"
 counter_asset_issuer = "GDVJQHR5JZIGW76WBQREFMTYZ3JAKLSX2JTNT2P6DI4M7JR7VHUCNODY"
 
 [[pair]]
@@ -3811,63 +1628,17 @@ counter_asset_code = "XYG"
 counter_asset_issuer = "GCCVQB3LQ6AH7AHV7DO5BUMB2H4KGG5274SLI3DE6HW5YHNU3QRLFEEJ"
 
 [[pair]]
-name = "XLM_XYO"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "XYO"
-counter_asset_issuer = "GDDZIMTYY76LGWNGLTD3YL6UYU3MHWXHD26FR4XC3NNCWYIHECCLJBDB"
-
-[[pair]]
-name = "XLM_YEAR"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "YEAR"
-counter_asset_issuer = "GAHE3PVC4QE5TBOMXKVOQF56ZMOPSDJ6WSLQJPDNSPROVRCXRBUPGLFU"
-
-[[pair]]
-name = "XLM_yobit"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "yobit"
-# toml = https://pr.network/.well-known/stellar.toml
-counter_asset_issuer = "GAZPKDTEZ5UM3BF4E7FL7EMXRMLH76F2TNVXRLOF6SCVXOFWSPCEWFI5"
-
-[[pair]]
-name = "XLM_youtube"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "youtube"
-# toml = https://pr.network/.well-known/stellar.toml
-counter_asset_issuer = "GAZPKDTEZ5UM3BF4E7FL7EMXRMLH76F2TNVXRLOF6SCVXOFWSPCEWFI5"
-
-[[pair]]
-name = "XLM_ZICC"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "ZICC"
-counter_asset_issuer = "GBVOCEGILVXN3MHQLDD3NYCQ3KV7H3JWWPLI6EXBR724FZMUPJLUICBX"
-
-[[pair]]
-name = "XLM_Zi"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "Zi"
-# toml = https://zioncoin.org.uk/.well-known/stellar.toml
-counter_asset_issuer = "GDBNNE67F54PTUZTCTOQYT5CQZFXA2AX6O5DCA5BVR653OP6KCWGG2Z7"
-
-[[pair]]
-name = "XLM_zlatan"
-base_asset_code = "XLM"
-base_asset_issuer = "native"
-counter_asset_code = "zlatan"
-# toml = https://pr.network/.well-known/stellar.toml
-counter_asset_issuer = "GAZPKDTEZ5UM3BF4E7FL7EMXRMLH76F2TNVXRLOF6SCVXOFWSPCEWFI5"
-
-[[pair]]
 name = "XLM_ZRX"
 base_asset_code = "XLM"
 base_asset_issuer = "native"
 counter_asset_code = "ZRX"
 # toml = https://apay.io/.well-known/stellar.toml
 counter_asset_issuer = "GBDEVU63Y6NTHJQQZIKVTC23NWLQVP3WJ2RI2OTSJTNYOIGICST6DUXR"
+
+[[pair]]
+name = "XLM_ZZZ"
+base_asset_code = "XLM"
+base_asset_issuer = "native"
+counter_asset_code = "ZZZ"
+counter_asset_issuer = "GCLCYDPGX7YBYMV627KV2GAXFEYYKJYZBCZEFVKELIHJ62SLKFAREUWH"
 
