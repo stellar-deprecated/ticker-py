@@ -149,7 +149,7 @@ def get_price(horizon_host, pair):
     except IndexError:
         return DatedPrice(date=datetime.utcfromtimestamp(0), price=0)
     price = float(trade_record["price"]["n"]) / float(trade_record["price"]["d"])
-    timestamp = parser.parse(trade_record["ledger_close_time"])
+    timestamp = parser.parse(trade_record["ledger_close_time"], ignoretz=True)
     return DatedPrice(date=timestamp, price=price)
 
 
