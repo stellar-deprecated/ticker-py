@@ -2,9 +2,9 @@
 
 # script to generate pairs.toml file for the ticker.json using the all assets endpoint
 
-import requests
-
 # minimum number of account holders to be added to the list if auth_required is true
+from util import get_json
+
 min_account_holders_auth_required = 1
 # minimum number of account holders to be added to the list if auth_required is false
 min_account_holders = 50
@@ -44,8 +44,7 @@ counter_asset_issuer = "GAXELY4AOIRVONF7V25BUPDNKZYIVT6CWURG7R2I6NQU26IQSQODBVCS
 
 next_url = "https://horizon.stellar.org/assets?limit=200"
 while True:
-    req = requests.get(next_url)
-    o = req.json()
+    o = get_json(next_url)
     next_url = o['_links']['next']['href']
     records = o['_embedded']['records']
 

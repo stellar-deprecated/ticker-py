@@ -3,25 +3,15 @@
 from time import time
 import json
 import toml
-import requests
 import argparse
-from ratelimit import limits, sleep_and_retry
 from urllib import urlencode
 from collections import namedtuple
 from datetime import datetime
 from dateutil import parser
 
+from util import get_json
+
 PAGE_LIMIT = 200  # for aggregation endpoint
-HORIZON_RATE_LIMIT = 50  # per sec
-
-
-@sleep_and_retry
-@limits(calls=HORIZON_RATE_LIMIT, period=1)
-def get_json(*args):
-    """proxy to requests.get with rate limiting and exception throwing for bad http status"""
-    response = requests.get(*args)
-    response.raise_for_status()
-    return response.json()
 
 
 def millis():
