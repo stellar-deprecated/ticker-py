@@ -2,3 +2,4 @@
 test.toml
 ticker.json
 .env/
+*.pyc
