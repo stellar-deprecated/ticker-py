@@ -5,12 +5,23 @@ import json
 import toml
 import requests
 import argparse
+from ratelimit import limits, sleep_and_retry
 from urllib import urlencode
 from collections import namedtuple
 from datetime import datetime
 from dateutil import parser
 
 PAGE_LIMIT = 200  # for aggregation endpoint
+HORIZON_RATE_LIMIT = 50  # per sec
+
+
+@sleep_and_retry
+@limits(calls=HORIZON_RATE_LIMIT, period=1)
+def get_json(*args):
+    """proxy to requests.get with rate limiting and exception throwing for bad http status"""
+    response = requests.get(*args)
+    response.raise_for_status()
+    return response.json()
 
 
 def millis():
@@ -76,9 +87,7 @@ def aggregate_pair(horizon_host, pair, start, end, resolution):
     consumed = False
     while not consumed:
         print "fetching url:", url
-        response = requests.get(url)
-        response.raise_for_status()  # raise exception for any failure
-        json_result = response.json()
+        json_result = get_json(url)
         records = json_result['_embedded']['records']
         for record in records:
             values = sum_tuples(values, record_to_tuple(record))
@@ -143,9 +152,9 @@ def get_price(horizon_host, pair):
     """return last trade price as DatedPrice"""
     print "fetching latest price for:" + pair["name"]
     params = make_trade_params(pair)
-    res = requests.get(horizon_host + "/trades", params).json()
+    json_result = get_json(horizon_host + "/trades", params)
     try:
-        trade_record = res["_embedded"]["records"][0]
+        trade_record = json_result["_embedded"]["records"][0]
     except IndexError:
         return DatedPrice(date=datetime.utcfromtimestamp(0), price=0)
     price = float(trade_record["price"]["n"]) / float(trade_record["price"]["d"])

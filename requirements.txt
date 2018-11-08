@@ -1,3 +1,4 @@
 requests==2.18.4
 toml==0.9.3.1
 python-dateutil==2.6.1
+ratelimit==2.2.0
