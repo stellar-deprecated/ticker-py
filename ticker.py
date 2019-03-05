@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-from time import time
+from time import time, sleep
 import json
 import toml
 import argparse
@@ -75,6 +75,7 @@ def aggregate_pair(horizon_host, pair, start, end, resolution):
     params = make_aggregation_params(pair, start, end, resolution)
     url = horizon_host + "/trade_aggregations?" + urlencode(params)
     consumed = False
+    sleep(1)
     while not consumed:
         print "fetching url:", url
         json_result = get_json(url)
